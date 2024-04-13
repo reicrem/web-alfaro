@@ -49,7 +49,7 @@
       <nav class="mobile-nav">
         <ul class="mobile-menu">
           <li class="active">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <ul>
               <li><a href="index-1.html">01 - furniture store</a></li>
               <li><a href="index-2.html">02 - furniture store</a></li>

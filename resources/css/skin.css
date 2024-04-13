@@ -663,6 +663,7 @@ a:focus {
 }
 .btn-product {
   color: #00b80c;
+  width: 100%;
 }
 .btn-product:hover span,
 .btn-product:focus span {
@@ -1525,6 +1526,8 @@ hr {
   color: #fff;
   background-color: #00b80c;
   border-bottom: none;
+  display: block;
+  width: 100%;
 }
 .product.product-7 .btn-product span {
   display: inline-block;
@@ -1576,10 +1579,17 @@ hr {
   left: 0;
   top: 50%;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1;
   margin-top: -1rem;
   transition: all 0.35s ease;
+  margin-left: 1.6rem;
+  padding-right: 1.8rem;
+}
+.btn-cart span {
+  padding-left: 1.2rem;
+  margin-left: 4.2rem;
+  margin-right: 3.2rem;
 }
 .btn-cart:hover span,
 .btn-cart:focus span {
@@ -1777,6 +1787,10 @@ hr {
   .intro-price {
     font-size: 4rem;
   }
+  .btn-cart span {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .intro-section .icon-boxes-container {
@@ -1847,5 +1861,9 @@ hr {
   }
   .cta .input-group .btn {
     margin-top: 0;
+  }
+  .btn-cart span {
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 }

@@ -6,7 +6,7 @@
           <li>
             <a href="#">Links</a>
             <ul>
-              <li><i class="icon-phone"></i> +56 33 2226779 | VENTAS@ALFAROREPUESTOS.CL</li>
+              <li><i class="icon-phone"></i> +569 7967 1133 | VENTAS@ALFAROREPUESTOS.CL</li>
             </ul>
           </li>
         </ul>
@@ -14,9 +14,8 @@
 
       <div class="header-right">
         <div class="social-icons social-icons-color">
-          <a href="#" class="social-icon social-facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-          <a href="#" class="social-icon social-twitter" target="_blank"><i class="icon-twitter"></i></a>
-          <a href="#" class="social-icon social-instagram" target="_blank"><i class="icon-instagram"></i></a>
+          <a href="https://web.facebook.com/alfarorepuestos?locale=es_LA" class="social-icon social-facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+          <a href="https://www.instagram.com/alfaroadm/" class="social-icon social-instagram" target="_blank"><i class="icon-instagram"></i></a>
         </div>
         <ul class="top-menu top-link-menu">
           <li>
@@ -60,8 +59,8 @@
         </div>
       </div>
       <div class="header-center">
-        <a href="index.html" class="logo">
-          <img src="{{ asset('images/logo.png') }}" alt="Logo" width="130" height="70" />
+        <a href="index.php" class="logo">
+          <img src="{{ asset('images/logito.png') }}" alt="Logo" width="130" height="70" />
         </a>
       </div>
       <div class="header-right">
@@ -119,7 +118,7 @@
         <nav class="main-nav">
           <ul class="menu sf-arrows">
             <li class="active">
-              <a href="index.html">Inicio</a>
+              <a href="index.php">Inicio</a>
             </li>
             <li>
               <a href="index.html">Amortiguiadores</a>

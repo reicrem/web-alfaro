@@ -11,10 +11,10 @@ class FrontController extends Controller
 {
     public function index()
     {
-      $articulos = Articulos::join("precios", "precios.codigo", "=", "articulos.id")
-        ->join("categorias", "categorias.codigo", "=", "articulos.categoria")
-        ->select("articulos.*", "precios.precio as price", "categorias.categoria as catego")
-        ->where("articulos.destacado", "=", "1")
+      $articulos = Articulos::join("precios", "precios.codart", "=", "articulos.id")
+        ->join("categorias", "categorias.codigo", "=", "articulos.cate")
+        ->select("articulos.*", "precios.pventa as price", "categorias.categoria as catego")
+        ->where("articulos.destaca", "=", "1")
         ->get();
       $banner = Banner::get();
   
