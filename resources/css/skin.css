@@ -1753,18 +1753,17 @@ hr {
 .footer {
   background-color: #222;
 }
-.footer .footer-logo {
-  margin-top: 0;
-}
 .footer .footer-middle {
   border-top: none;
-  padding-top: 6rem;
+  padding-top: 2rem;
 }
 .footer .widget-about-title {
   color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.01em
 }
 .footer .widget-about-info a {
-  color: #00b80c;
+  color: #0897f7;
 }
 .footer .widget-title {
   letter-spacing: 0.01em;
