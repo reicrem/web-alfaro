@@ -319,6 +319,7 @@ blockquote.text-white cite span {
 .col-xl-auto {
   padding-right: 10px;
   padding-left: 10px;
+
 }
 .no-gutters {
   margin-left: 0;
@@ -4527,6 +4528,7 @@ p {
 }
 .footer .widget {
   margin-bottom: 4rem;
+  color: #0897f7;
 }
 .footer .widget-title {
   color: #333333;
@@ -4541,7 +4543,6 @@ p {
   border-top: 0.1rem solid #ebebeb;
 }
 .footer-logo {
-  margin-bottom: 2rem;
   margin-top: -0.8rem;
 }
 .widget-about p {
@@ -4719,6 +4720,8 @@ p {
 .col-md-6 .widget-about p,
 .col-lg-6 .widget-about p {
   max-width: none;
+  margin-bottom: 2%;
+  color:#0897f7;
 }
 .widget-about-info {
   font-weight: 400;
@@ -4817,6 +4820,7 @@ p {
   .footer-2 .footer-bottom .container,
   .footer-2 .footer-bottom .container-fluid {
     flex-direction: row;
+    
   }
   .footer-menu {
     margin-bottom: 0;
@@ -4824,7 +4828,7 @@ p {
     margin-right: 0;
   }
   .footer-bottom .social-icons {
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: 0;
     margin-bottom: 0;
   }
