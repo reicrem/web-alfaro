@@ -54,27 +54,25 @@
 
     <div class="container featured mt-4 pb-2">
       <div class="heading heading-flex mb-3">
-        <div class="heading-left">
-          <h2 class="title">Destacados</h2>
-        </div>
+       
         <div class="heading-right"></div>
       </div>
       <div class="row">
         <div class="col-lg-3">
           <div class="banner banner-overlay product-banner">
             <a href="#">
-              <img src="{{ asset('images/banner-5.jpg') }}" />
+              <img src="{{ asset('images/banner-5.png') }}" />
             </a>
             <div class="banner-content">
               <div class="banner-top">
                 <div class="banner-title text-white text-center">
                   <i class="la la-star-o"></i>
-                  <h3 class="text-white">Recomendamos</h3>
+                  <h3 class="text-white">¿Qué marca de auto tienes? Pregúntanos si lo tenemos</h3>
                 </div>
               </div>
               <div class="banner-bottom">
                 
-                <a href="#" class="btn btn-outline-white banner-link">Ver</a>
+                <a href="{{ route('formulario') }}" class="btn btn-outline-white banner-link">Ver</a>
               </div>
             </div>
           </div>
@@ -110,6 +108,7 @@
                                 }'>
 
                 @foreach ($articulos as $articulo)
+                
                   <div class="product product-7">
                     <figure class="product-media">
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">

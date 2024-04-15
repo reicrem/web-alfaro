@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\FormularioController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
@@ -40,3 +40,11 @@ Route::get('/catalogo', [HomeController::class, 'catalogo']);
 Route::get('/articulo/{id}', [FrontController::class, 'ver_articulo'])->name('articulo');
 // ver categoria
 Route::get('/categoria/{link}', [FrontController::class, 'ver_categoria'])->name('categoria');
+
+// Ir al formulario
+// routes/web.php
+
+Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
+Route::post('/formulario/enviar', [FormularioController::class, 'enviar'])->name('formulario.enviar');
+
+
