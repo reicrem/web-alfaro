@@ -17,7 +17,7 @@
         <div class="container">
             <div class="products">
                 <div class="row">
-                    <!-- Aquí puedes incluir tu formulario -->
+                   
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">{{ __('Enviar Consulta') }}</div>
