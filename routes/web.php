@@ -1,9 +1,8 @@
 <?php
-<<<<<<< HEAD
 
 =======
 use App\Http\Controllers\FormularioController;
->>>>>>> keny
+
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
