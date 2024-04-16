@@ -54,6 +54,7 @@
 
         </div>
 
+<<<<<<< HEAD
         <div class="col-sm-4 col-lg-2">
 
           <div class="widget">
@@ -77,6 +78,9 @@
           </div>
 
         </div>
+=======
+      
+>>>>>>> keny
 
         <div class="col-sm-4 col-lg-2">
 
@@ -108,6 +112,7 @@
 
           <div class="widget">
 
+<<<<<<< HEAD
             <h4 class="widget-title">Mi Cuenta</h4>
 
             <ul class="widget-list">
@@ -121,6 +126,9 @@
               <li><a href="#">Seguir Mi Pedido</a></li>
 
               <li><a href="#">Ayuda</a></li>
+=======
+            
+>>>>>>> keny
 
               
               <div style="width: 100%; height: 200px;">
@@ -155,6 +163,7 @@
         <li><a href="#">Política de Privacidad</a></li>
 
       </ul>
+<<<<<<< HEAD
 
     </div>
 
@@ -169,6 +178,20 @@
     </div>
 
   </div>
+=======
+      <div class="social-icons social-icons-color">
+
+<span class="social-label">Redes Sociales</span>
+
+<a href="https://web.facebook.com/alfarorepuestos?locale=es_LA" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+
+<a href="https://www.instagram.com/alfaroadm/" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+
+</div>
+
+
+   
+>>>>>>> keny
 
 </footer>
 

@@ -54,32 +54,52 @@
 
     <div class="container featured mt-4 pb-2">
       <div class="heading heading-flex mb-3">
+<<<<<<< HEAD
         <div class="heading-left">
           <h2 class="title">Destacados</h2>
         </div>
+=======
+       
+>>>>>>> keny
         <div class="heading-right"></div>
       </div>
       <div class="row">
         <div class="col-lg-3">
           <div class="banner banner-overlay product-banner">
             <a href="#">
+<<<<<<< HEAD
               <img src="{{ asset('images/banner-5.jpg') }}" />
+=======
+              <img src="{{ asset('images/banner-5.png') }}" />
+>>>>>>> keny
             </a>
             <div class="banner-content">
               <div class="banner-top">
                 <div class="banner-title text-white text-center">
                   <i class="la la-star-o"></i>
+<<<<<<< HEAD
                   <h3 class="text-white">Recomendamos</h3>
+=======
+                  <h3 class="text-white">¿Qué marca de auto tienes? Pregúntanos si lo tenemos</h3>
+>>>>>>> keny
                 </div>
               </div>
               <div class="banner-bottom">
                 
+<<<<<<< HEAD
                 <a href="#" class="btn btn-outline-white banner-link">Ver</a>
+=======
+                <a href="{{ route('formulario') }}" class="btn btn-outline-white banner-link">Ver</a>
+>>>>>>> keny
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-9">
+<<<<<<< HEAD
+=======
+          <h3 class="t-destacado">Productos  destacados</h3>
+>>>>>>> keny
           <div class="tab-content tab-content-carousel">
             <div class="tab-pane p-0 fade show active" id="featured-women-tab" role="tabpanel" aria-labelledby="featured-women-link">
               <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
@@ -110,6 +130,10 @@
                                 }'>
 
                 @foreach ($articulos as $articulo)
+<<<<<<< HEAD
+=======
+                
+>>>>>>> keny
                   <div class="product product-7">
                     <figure class="product-media">
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">
@@ -147,6 +171,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
 
     <div class="pt-3 pb-3">
       <div class="container">
@@ -216,3 +241,84 @@
     </div>
   </main>
 @endsection
+=======
+    
+    <div class="col-lg-4 ">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-1.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a >Carroceria</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-2.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white">
+                                <a >Chassis</a>
+                            </h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-3.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a >Accesorios</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-4.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a >Aditivos</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-10">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-6.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a >Baterias</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 ">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-7.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a >Correas</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@endsection
+>>>>>>> keny

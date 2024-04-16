@@ -128,6 +128,10 @@ h5,
 .h5,
 h6,
 .h6 {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> keny
   font-weight: 500;
   line-height: 1.1;
   margin-bottom: 1.4rem;
@@ -319,6 +323,34 @@ blockquote.text-white cite span {
 .col-xl-auto {
   padding-right: 10px;
   padding-left: 10px;
+<<<<<<< HEAD
+=======
+
+}
+.col-lg-4{
+  padding-top: 17px;
+  width: 475px ;
+  display: inline-block;
+  left: 338px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.col-lg-10{
+  padding-top: 17px;
+  width: 475px ;
+  display: inline-block;
+  left: 338px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 68px ;
+  margin-top: 10px;
+  
+}
+.t-destacado{
+  padding-left: 279px; 
+  padding-bottom: 15px;
+  font-weight: 800; 
+  letter-spacing: 2px; 
+  z-index: 9;
+>>>>>>> keny
 }
 .no-gutters {
   margin-left: 0;
@@ -4527,6 +4559,10 @@ p {
 }
 .footer .widget {
   margin-bottom: 4rem;
+<<<<<<< HEAD
+=======
+  color: #0897f7;
+>>>>>>> keny
 }
 .footer .widget-title {
   color: #333333;
@@ -4541,7 +4577,10 @@ p {
   border-top: 0.1rem solid #ebebeb;
 }
 .footer-logo {
+<<<<<<< HEAD
   margin-bottom: 2rem;
+=======
+>>>>>>> keny
   margin-top: -0.8rem;
 }
 .widget-about p {
@@ -4719,6 +4758,11 @@ p {
 .col-md-6 .widget-about p,
 .col-lg-6 .widget-about p {
   max-width: none;
+<<<<<<< HEAD
+=======
+  margin-bottom: 2%;
+  color:#0897f7;
+>>>>>>> keny
 }
 .widget-about-info {
   font-weight: 400;
@@ -4817,6 +4861,10 @@ p {
   .footer-2 .footer-bottom .container,
   .footer-2 .footer-bottom .container-fluid {
     flex-direction: row;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> keny
   }
   .footer-menu {
     margin-bottom: 0;
@@ -4824,7 +4872,11 @@ p {
     margin-right: 0;
   }
   .footer-bottom .social-icons {
+<<<<<<< HEAD
     margin-left: auto;
+=======
+    margin-left: 10px;
+>>>>>>> keny
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -7566,7 +7618,11 @@ p {
 .banner-content {
   display: inline-block;
   position: absolute;
+<<<<<<< HEAD
   padding-top: 0.4rem;
+=======
+  padding-top: 16.4rem;
+>>>>>>> keny
   left: 2rem;
   top: 50%;
   z-index: 2;
@@ -7586,11 +7642,20 @@ p {
 }
 .banner-title {
   color: #333333;
+<<<<<<< HEAD
   font-weight: 500;
   font-size: 2rem;
   line-height: 1.3;
   margin-bottom: 1.5rem;
   letter-spacing: -0.03em;
+=======
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+  letter-spacing: 2px;
+>>>>>>> keny
 }
 .banner-title a {
   color: inherit;
@@ -7600,7 +7665,17 @@ p {
   text-decoration: none;
 }
 .banner-title.text-white a {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #1e9dff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 65%);
+    position: absolute;
+    left: 9px;
+    background-color: rgba(51, 51, 51, 0.25);
+    text-align: center;
+    top: 164px;
+>>>>>>> keny
 }
 .banner-subtitle {
   color: #777;
@@ -7659,7 +7734,18 @@ p {
 }
 @media screen and (min-width: 992px) {
   .banner-content {
+<<<<<<< HEAD
     left: 4rem;
+=======
+    right: 17rem;
+    left: 13rem;
+    top: -8rem;
+    bottom: 8.5rem;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+>>>>>>> keny
   }
   .banner-big .banner-content {
     left: 10rem;
@@ -7701,11 +7787,20 @@ p {
 }
 .btn.banner-link {
   font-size: 1.4rem;
+<<<<<<< HEAD
   line-height: 1;
   padding: 0.8rem 1.4rem;
   min-width: 0;
   text-transform: uppercase;
   text-decoration: none !important;
+=======
+    line-height: 1;
+    padding: 0.8rem 1.4rem;
+    min-width: 0;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+>>>>>>> keny
 }
 .btn.banner-link i {
   margin-right: 0;
@@ -9278,11 +9373,19 @@ button:focus {
   font-size: 3.4rem;
 }
 .carousel-with-shadow .owl-stage-outer {
+<<<<<<< HEAD
   padding: 0 1rem 2rem;
   margin-left: -1rem;
   margin-right: -1rem;
   margin-top: -3rem;
   padding-top: 3rem;
+=======
+  padding: 0 55rem 2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-top: 1rem;
+    padding-top: -2rem;
+>>>>>>> keny
 }
 .carousel-with-shadow.owl-simple .owl-nav [class*="owl-"] {
   margin-top: -31px;
