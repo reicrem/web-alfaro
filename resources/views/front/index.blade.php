@@ -78,6 +78,7 @@
           </div>
         </div>
         <div class="col-lg-9">
+          <h3 class="t-destacado">Productos  destacados</h3>
           <div class="tab-content tab-content-carousel">
             <div class="tab-pane p-0 fade show active" id="featured-women-tab" role="tabpanel" aria-labelledby="featured-women-link">
               <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
@@ -146,72 +147,82 @@
         </div>
       </div>
     </div>
+    
+    <div class="col-lg-4 ">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-1.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a href="#">Carroceria</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="pt-3 pb-3">
-      <div class="container">
-        <div class="banner-group">
-          <div class="row">
-            <div class="col-sm-6 col-lg-4">
-              <div class="banner banner-overlay banner-lg">
-                <a href="#">
-                  <img src="{{ asset('images/banner-1.jpg') }}"/>
-                </a>
-                <div class="banner-content banner-content-bottom">
-                  <h4 class="banner-subtitle text-white"><a href="#">Clearance</a></h4>
-                  <h3 class="banner-title text-white"><a href="#">Waterproof</a></h3>
-                  <div class="banner-text text-white"><a href="#">from $19.00</a></div>
-                  <a href="#" class="btn btn-outline-white banner-link">Discover Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 order-lg-last">
-              <div class="banner banner-overlay banner-lg">
-                <a href="#">
-                  <img src="{{ asset('images/banner-4.jpg') }}" alt="Banner" />
-                </a>
-                <div class="banner-content banner-content-top">
-                  <h4 class="banner-subtitle text-white"><a href="#">On Sale</a></h4>
-                  <h3 class="banner-title text-white">
-                    <a href="#">Women's<br />Sportswear</a>
-                  </h3>
-                  <div class="banner-text text-white"><a href="#">from $39.00</a></div>
-                  <a href="#" class="btn btn-outline-white banner-link">Discover Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="row">
-                <div class="col-sm-6 col-lg-12">
-                  <div class="banner banner-overlay">
-                    <a href="#">
-                      <img src="{{ asset('images/banner-2.jpg') }}" alt="Banner" />
-                    </a>
-                    <div class="banner-content">
-                      <h4 class="banner-subtitle text-white"><a href="#">New Arrivals</a></h4>
-                      <h3 class="banner-title text-white">
-                        <a href="#">Accessories<br />and Shoes</a>
-                      </h3>
-                      <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                <div class="col-lg-4">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-2.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white">
+                                <a >Chassis</a>
+                            </h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-sm-6 col-lg-12">
-                  <div class="banner banner-overlay">
-                    <a href="#">
-                      <img src="{{ asset('images/banner-3.jpg') }}" alt="Banner" />
-                    </a>
-                    <div class="banner-content">
-                      <h4 class="banner-subtitle text-white"><a href="#">New Arrivals</a></h4>
-                      <h3 class="banner-title text-white"><a href="#">Spring 2019</a></h3>
-                      <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+
+                <div class="col-lg-4">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-3.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a href="#">Accesorios</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+
+                <div class="col-lg-10">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-4.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a href="#">Aditivos</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-10">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-6.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a href="#">Baterias</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 ">
+                    <div class="banner banner-overlay">
+                        <a href="#">
+                            <img src="{{ asset('images/banner-7.png') }}" alt="Banner" />
+                        </a>
+                        <div class="banner-content">
+                            <h3 class="banner-title text-white"><a href="#">Correas</a></h3>
+                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </main>
+</main>
 @endsection

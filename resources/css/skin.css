@@ -458,7 +458,7 @@ a:focus {
 }
 .btn-outline-white {
   color: #fff;
-  background-color: transparent;
+  background-color: #00000073;
   background-image: none;
   border-color: #fff;
   box-shadow: none;
@@ -1694,13 +1694,14 @@ hr {
   background-color: #fff;
 }
 .product-banner .banner-content {
-  top: 2rem;
-  bottom: 3.5rem;
-  right: 4rem;
-  transform: translateY(0);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  right: 2rem;
+    left: 2rem;
+    top: -13rem;
+    bottom: 3.5rem;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .product-banner .banner-title {
   border-bottom: 0.1rem solid #fff;
