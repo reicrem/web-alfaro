@@ -154,7 +154,7 @@
                             <img src="{{ asset('images/banner-1.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
-                            <h3 class="banner-title text-white"><a href="#">Carroceria</a></h3>
+                            <h3 class="banner-title text-white"><a >Carroceria</a></h3>
                             <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                             <img src="{{ asset('images/banner-3.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
-                            <h3 class="banner-title text-white"><a href="#">Accesorios</a></h3>
+                            <h3 class="banner-title text-white"><a >Accesorios</a></h3>
                             <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                             <img src="{{ asset('images/banner-4.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
-                            <h3 class="banner-title text-white"><a href="#">Aditivos</a></h3>
+                            <h3 class="banner-title text-white"><a >Aditivos</a></h3>
                             <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                             <img src="{{ asset('images/banner-6.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
-                            <h3 class="banner-title text-white"><a href="#">Baterias</a></h3>
+                            <h3 class="banner-title text-white"><a >Baterias</a></h3>
                             <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                             <img src="{{ asset('images/banner-7.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
-                            <h3 class="banner-title text-white"><a href="#">Correas</a></h3>
+                            <h3 class="banner-title text-white"><a >Correas</a></h3>
                             <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
