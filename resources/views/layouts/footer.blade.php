@@ -54,33 +54,7 @@
 
         </div>
 
-<<<<<<< HEAD
-        <div class="col-sm-4 col-lg-2">
-
-          <div class="widget">
-
-            <h4 class="widget-title">Información</h4>
-
-            <ul class="widget-list">
-
-              <li><a href="about.html">Acerca de Molla</a></li>
-
-              <li><a href="#">Cómo comprar en Molla</a></li>
-
-              <li><a href="faq.html">Preguntas frecuentes</a></li>
-
-              <li><a href="contact.html">Contáctanos</a></li>
-
-              <li><a href="login.html">Iniciar sesión</a></li>
-
-            </ul>
-
-          </div>
-
-        </div>
-=======
       
->>>>>>> keny
 
         <div class="col-sm-4 col-lg-2">
 
@@ -112,23 +86,7 @@
 
           <div class="widget">
 
-<<<<<<< HEAD
-            <h4 class="widget-title">Mi Cuenta</h4>
-
-            <ul class="widget-list">
-
-              <li><a href="#">Iniciar sesión</a></li>
-
-              <li><a href="cart.html">Ver Carrito</a></li>
-
-              <li><a href="#">Mi Lista de Deseos</a></li>
-
-              <li><a href="#">Seguir Mi Pedido</a></li>
-
-              <li><a href="#">Ayuda</a></li>
-=======
             
->>>>>>> keny
 
               
               <div style="width: 100%; height: 200px;">
@@ -163,22 +121,6 @@
         <li><a href="#">Política de Privacidad</a></li>
 
       </ul>
-<<<<<<< HEAD
-
-    </div>
-
-    <div class="social-icons social-icons-color">
-
-      <span class="social-label">Redes Sociales</span>
-
-      <a href="https://web.facebook.com/alfarorepuestos?locale=es_LA" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-
-      <a href="https://www.instagram.com/alfaroadm/" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-
-    </div>
-
-  </div>
-=======
       <div class="social-icons social-icons-color">
 
 <span class="social-label">Redes Sociales</span>
@@ -191,7 +133,6 @@
 
 
    
->>>>>>> keny
 
 </footer>
 
