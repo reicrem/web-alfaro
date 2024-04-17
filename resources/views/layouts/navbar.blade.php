@@ -104,8 +104,8 @@
               <span class="cart-total-price">$ {{ number_format(Cart::total(), 0, ',', '.') }}</span>
             </div>
             <div class="dropdown-cart-action">
-              <a href="{{ route('cart') }}" class="btn btn-primary">Ver Carro</a>
-              <a href="{{ route('checkout') }}" class="btn btn-outline-primary-2"><span>Comprar</span><i class="icon-long-arrow-right"></i></a>
+              <a href="{{ route('cart') }}" class="btn btn-primary boton-carro"><span class="ver-carro">Ver Carro</span></a>
+              <a href="{{ route('checkout') }}" class="btn btn-outline-primary-2 boton-comprar"><span class="comprar-carro">Comprar</span><i class="icon-long-arrow-right"></i></a>
             </div>
           </div>
         </div>

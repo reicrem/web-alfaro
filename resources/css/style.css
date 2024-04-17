@@ -3024,6 +3024,25 @@ p {
 .header-6 .header-middle a {
   color: #666;
 }
+.ver-carro{
+  color: #fff;
+}
+.ver-carro:hover{
+  color: #000;
+}
+.comprar-carro{
+  color: #000;
+}
+.comprar-carro:hover{
+  color: #fff;
+}
+.boton-carro{
+  background-color: #0C4876;
+}
+.boton-comprar{
+  background-color: #fff;
+  border-color: #0C4876;
+}
 .header-6 .header-middle a:hover,
 .header-6 .header-middle a:focus {
   color: #c96;
