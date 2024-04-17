@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="col-lg-9">
-          <h3 class="t-destacado">Productos  destacados</h3>
+          <h3 class="t-destacado">Productos en Oferta</h3>
           <div class="tab-content tab-content-carousel">
             <div class="tab-pane p-0 fade show active" id="featured-women-tab" role="tabpanel" aria-labelledby="featured-women-link">
               <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
@@ -221,8 +221,52 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                
+                <div class="container py-3">
+    <div class="section_maintitle wow fadeInDown animated" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
+        <h3 class="heading text-capitalize text-center t-destacado-2">Amplia Cobertura para Diversas Marcas</h3>
     </div>
+    <div class="recruitercontainer">
+    <div class="carousel-container">
+    <div class="carousel">
+      <img src="{{ asset('images/Chevrolet.png') }}" alt="chevrolet">
+      <img src="{{ asset('images/Toyota.png') }}" alt="Logo 1">
+      <img src="{{ asset('images/suzuki.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/MG.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Nissan.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Maxus.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Changan.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Mazda.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Kia.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/chery.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/hyundai.png') }}" alt="Logo 3">
+    </div>
+</div>
+
+    </div>
+     </div>
+    </div>
+     </div>
+     </div>
+  </div>
+  </div>
+  <script>
+    const carousel = document.querySelector('.carousel');
+let counter = 0;
+const interval = setInterval(() => {
+    counter++;
+    carousel.style.transform = `translateX(${-counter * 100}px)`; // Ajusta el valor de acuerdo al tamaño de las imágenes
+    if (counter >= carousel.children.length - 1) {
+        counter = 0;
+        setTimeout(() => {
+            carousel.style.transition = 'none';
+            carousel.style.transform = 'translateX(0)';
+            setTimeout(() => {
+                carousel.style.transition = 'transform 0.5s ease';
+            });
+        }, 500);
+    }
+}, 2000); //
+  </script>
 </main>
 @endsection

@@ -335,13 +335,18 @@ blockquote.text-white cite span {
   display: inline-block;
   left: 338px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 68px ;
+  margin-bottom: 8px ;
   margin-top: 10px;
   
 }
 .t-destacado{
   padding-left: 279px; 
   padding-bottom: 15px;
+  font-weight: 800; 
+  letter-spacing: 2px; 
+  z-index: 9;
+}
+.t-destacado-2{
   font-weight: 800; 
   letter-spacing: 2px; 
   z-index: 9;
@@ -10540,6 +10545,24 @@ button:focus {
 }
 .details-filter-row .product-nav-thumbs {
   padding-top: 0;
+}
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.carousel:hover {
+  transform: scale(1.1);
+}
+.carousel img {
+  width: 256px; /* Ajusta el tamaño según tus necesidades */
+  height: 178px;
+  margin: 0 35px; /* Espacio entre imágenes */
+  object-fit: contain;
 }
 .size-guide {
   color: #777;
