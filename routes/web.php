@@ -44,9 +44,4 @@ Route::get('/articulo/{id}', [FrontController::class, 'ver_articulo'])->name('ar
 Route::get('/categoria/{link}', [FrontController::class, 'ver_categoria'])->name('categoria');
 
 // Ir al formulario
-// routes/web.php
-
-Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
-Route::post('/formulario/enviar', [FormularioController::class, 'enviar'])->name('formulario.enviar');
-
-
+Route::get('/formulario',[App\Http\Controllers\FormularioController::class, 'formulario'])->name('formulario'); 

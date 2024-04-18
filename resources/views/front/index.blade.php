@@ -72,7 +72,7 @@
               </div>
               <div class="banner-bottom">
                 
-                <a href="{{ route('formulario') }}" class="btn btn-outline-white banner-link">Ver</a>
+                <a href="{{ route('formulario') }}" class="btn btn-outline-white banner-link">Cotizar</a>
               </div>
             </div>
           </div>
