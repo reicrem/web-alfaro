@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class FormularioController extends Controller
 {
     public function formulario(){
-
+        return view('front.formulario');
+        
     }
 }

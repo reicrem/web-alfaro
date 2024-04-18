@@ -5223,12 +5223,20 @@ p {
 }
 .card-header {
   position: relative;
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
   border: none;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #000;
+  text-align: center;
   font-weight: 700;
   line-height: 1.5;
   background-color: transparent;
   margin: 0;
+}
+.boton-formulario{
+  padding-bottom: 20px;
 }
 .card-header::after {
   display: block;
@@ -13281,6 +13289,9 @@ button:focus {
   margin-right: 2.8rem;
   flex-shrink: 0;
   max-width: 60px;
+}
+.col-md-8{
+  padding-top: 20px;
 }
 .product-col .product-title {
   display: inline-block;
