@@ -45,3 +45,4 @@ Route::get('/categoria/{link}', [FrontController::class, 'ver_categoria'])->name
 
 // Ir al formulario
 Route::get('/formulario',[App\Http\Controllers\FormularioController::class, 'formulario'])->name('formulario'); 
+

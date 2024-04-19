@@ -8,7 +8,6 @@
                     <div class="card-header">{{ __('Enviar Consulta') }}</div>
 
                     <div class="card-body">
-                        <form>
                             <div class="form-group">
                                 <label for="nombre">{{ __('Nombre') }}</label>
                                 <input id="nombre" type="text" class="form-control" name="nombre" required autofocus>
@@ -20,8 +19,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="telefono">{{ __('Correo') }}</label>
-                                <input id="telefono" type="tel" class="form-control" name="telefono" required>
+                                <label for="correo">{{ __('Correo') }}</label>
+                                <input id="correo" type="email" class="form-control" name="correo" required>
                             </div>
 
                             <div class="form-group">
@@ -29,16 +28,20 @@
                                 <input id="marca" type="text" class="form-control" name="marca" required>
                             </div>
 
-                            <div class="form-group">
-                                <label for="anio">{{ __('Año del Auto') }}</label>
-                                <input id="anio" type="number" class="form-control" name="anio" required>
-                            </div>
 
                             <div class="form-group">
                                 <label for="pieza">{{ __('Pieza que Necesitas') }}</label>
                                 <input id="pieza" type="text" class="form-control" name="pieza" required>
                             </div>
 
+                            <div class="form-group">
+                                <label for="pieza">{{ __('Patron de motor') }}</label>
+                                <input id="patron" type="text" class="form-control" name="patron de motor" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="anio">{{ __('Año del Auto') }}</label>
+                                <input id="anio" type="number" class="form-control" name="anio" required>
+                            </div>
                             
                             <div class="boton-formulario">
                             <button type="submit" class="btn btn-primary">
@@ -47,9 +50,12 @@
                             </div>
                         </form>
                     </div>
+
+
                 </div>
             </div>
         </div>
+        
     </div>
 
 @endsection
