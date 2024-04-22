@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
   <main class="main">
     <div class="intro-section">
       <div class="intro-section-slider">
@@ -51,6 +52,28 @@
         </div>
       </div>
     </div>
+
+    <div class="container py-3">
+    <div class="section_maintitle wow fadeInDown animated" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
+        <h3 class="heading text-capitalize text-center t-destacado-2">Amplia Cobertura para Diversas Marcas</h3>
+    </div>
+    <div class="recruitercontainer">
+    <div class="carousel-container">
+    <div class="carousel">
+      <img src="{{ asset('images/Chevrolet.png') }}" alt="chevrolet">
+      <img src="{{ asset('images/Toyota.png') }}" alt="Logo 1">
+      <img src="{{ asset('images/suzuki.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/MG.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Nissan.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Maxus.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Changan.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Mazda.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/Kia.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/chery.png') }}" alt="Logo 3">
+      <img src="{{ asset('images/hyundai.png') }}" alt="Logo 3">
+    </div>
+</div>
+
 
     <div class="container featured mt-4 pb-2">
       <div class="heading heading-flex mb-3">
@@ -222,26 +245,7 @@
                     </div>
                 </div>
                 
-                <div class="container py-3">
-    <div class="section_maintitle wow fadeInDown animated" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
-        <h3 class="heading text-capitalize text-center t-destacado-2">Amplia Cobertura para Diversas Marcas</h3>
-    </div>
-    <div class="recruitercontainer">
-    <div class="carousel-container">
-    <div class="carousel">
-      <img src="{{ asset('images/Chevrolet.png') }}" alt="chevrolet">
-      <img src="{{ asset('images/Toyota.png') }}" alt="Logo 1">
-      <img src="{{ asset('images/suzuki.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/MG.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Nissan.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Maxus.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Changan.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Mazda.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Kia.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/chery.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/hyundai.png') }}" alt="Logo 3">
-    </div>
-</div>
+                
 
     </div>
      </div>

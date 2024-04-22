@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">{{ __('Enviar Consulta') }}</div>
-
+                <form action="" method="POST">
                     <div class="card-body">
                             <div class="form-group">
                                 <label for="nombre">{{ __('Nombre') }}</label>
