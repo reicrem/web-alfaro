@@ -140,7 +140,7 @@
                         <img src="https://www.alfarorepuestos.cl/kallfu/{{ $articulo->imagen }}" class="product-image-hover" />
                       </a>
                       <div class="product-action-vertical">
-                        <a href="{{ route('articulo', ['id' => $articulo->id]) }}" class="btn-product-icon btn-quickview"><span>Ver</span></a>
+                        <a href="{{ route('producto') }}" class="btn-product-icon btn-quickview"><span>Ver</span></a>
                       </div>
                       <div class="product-action">
                         <form action="{{ route('add') }}" method="POST">

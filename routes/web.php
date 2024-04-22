@@ -46,3 +46,6 @@ Route::get('/categoria/{link}', [FrontController::class, 'ver_categoria'])->name
 // Ir al formulario
 Route::get('/formulario',[App\Http\Controllers\FormularioController::class, 'formulario'])->name('formulario'); 
 
+// Ir al producto
+Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'producto' ])->name('producto');
+
