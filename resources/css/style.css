@@ -6204,11 +6204,17 @@ p {
 }
 .product-image {
   display: block;
-  width: 20%;
   height: auto;
+  margin-left: 43px;
+  margin-bottom: 89px;
+  margin-top: 38px;
 }
+
+
 .btn-agregar-carrito{
   margin-bottom: 20px;
+  margin-left: 100px;
+  margin-top: ;
 }
 .product-image-bateria{
   display: flex;
@@ -6223,9 +6229,22 @@ p {
   align-content: center;
   margin-left: 360px;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 20px;  
   margin-right: 350px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+  overflow: hidden;
+}
+.product-options{
+  float: right;
+    width: 49%;
+    padding-top: 39px;
+    margin-block: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  
 }
 
 .product-image-hover {
@@ -10780,6 +10799,8 @@ button:focus {
 .product-details-bateria{
 margin-left: 100px;
 margin-top: 50px;
+float: left; /* Alinear a la izquierda */
+width: 60%; /* Ancho del contenedor de detalles del producto */
 }
 .product-desc-content a {
   color: #333;

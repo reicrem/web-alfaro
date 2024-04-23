@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "build:css": "tailwindcss build resources/css/app.css -o public/css/app.css"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
@@ -12,5 +13,10 @@
         "laravel-vite-plugin": "^1.0.0",
         "sass": "^1.56.1",
         "vite": "^5.2.8"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.3"
     }
+
+    
 }
