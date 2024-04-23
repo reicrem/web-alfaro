@@ -54,7 +54,7 @@
     </div>
 
     <div class="container py-3">
-    <div class="section_maintitle wow fadeInDown animated" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
+    <div class="section_maintitle wow fadeInDown animated hover" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
         <h3 class="heading text-capitalize text-center t-destacado-2">Amplia Cobertura para Diversas Marcas</h3>
     </div>
     <div class="recruitercontainer">
