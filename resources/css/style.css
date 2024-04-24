@@ -328,14 +328,14 @@ blockquote.text-white cite span {
 }
 .col-lg-4{
   padding-top: 17px;
-  width: 369px ;
+  width: 487px ;
   display: inline-block;
   left: 46px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .col-lg-10{
   padding-top: 17px;
-  width: 369px ;
+  width: 487px ;
   display: inline-block;
   left: 46px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -344,16 +344,18 @@ blockquote.text-white cite span {
   
 }
 .t-destacado{
-  padding-left: 279px; 
-  padding-bottom: 15px;
-  font-weight: 800; 
-  letter-spacing: 2px; 
-  z-index: 9;
+  padding-left: 321px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 32px;
 }
 .t-destacado-2{
-  font-weight: 800; 
-  letter-spacing: 2px; 
-  z-index: 9;
+  padding-left: 14px;
+  padding-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 32px;
 }
 .no-gutters {
   margin-left: 0;
@@ -6208,13 +6210,14 @@ p {
 }
 .product-image {
   display: block;
-    height: auto;
-    width: 402px;
-    padding-top: 22px;
-    margin-left: 366px;
-    margin-bottom: -6px;
-    margin-top: 32px;
+  height: auto;
+  width: 362px;
+  padding-top: 22px;
+  margin-left: 62px;
+  margin-bottom: 29px;
+  margin-top: 32px;
 }
+
 .contenido-producto{
   padding-left: 50px;
     display: flex;
