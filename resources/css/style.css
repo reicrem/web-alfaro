@@ -5242,8 +5242,10 @@ p {
   margin: 0;
 }
 .boton-formulario{
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 30px;
+  font-size: 19px;
+  margin-left: 0px;
+
 }
 
 .card-header::after {
@@ -9232,6 +9234,36 @@ small.form-text {
   background-image: url(../images/elements.png);
   background-repeat: no-repeat;
   transition: all 0.3s;
+}
+.nombre-producto{
+  font-size: 20px;
+}
+.nombre-producto2{
+  font-size: 18px;
+
+}
+.precio-producto{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.precio-producto2{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.carec-producto{
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+.carec-producto2{
+  margin-top: 10px;
+  font-size: 15px;
+  
+}
+
+
+.conainer-producto{
+  margin-top: 30px;
 }
 .element-hover-img {
   position: absolute;
