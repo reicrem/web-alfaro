@@ -125,9 +125,9 @@
             </li>
             <li>
               <a href="category.html" class="sf-with-ul">Lubricantes</a>
-              <div class="megamenu megamenu-md">
+              <div class="megamenu megamenu-md ">
                 <div class="row no-gutters">
-                  <div class="col-md-8">
+                  <div class="col-md-8 menu-drop">
                     <div class="menu-col">
                       <div class="row">
                         <div class="col-md-6">
@@ -151,10 +151,10 @@
                   <div class="col-md-4">
                     <div class="banner banner-overlay">
                       <a href="category.html" class="banner banner-menu">
-                        <img src="assets/images/menu/banner-1.jpg" alt="Banner" />
+                        <img src="images/banner.png" alt="Banner" />
                         <div class="banner-content banner-content-top">
-                          <div class="banner-title text-white">
-                            Last <br />Chance<br /><span><strong>Sale</strong></span>
+                          <div class="banner-title-2 text-white ">
+                          ¡Últimas  <br />Ofertas<br /><span><strong>Imperdibles!</strong></span>
                           </div>
                         </div>
                       </a>
@@ -192,10 +192,10 @@
                   <div class="col-md-4">
                     <div class="banner banner-overlay">
                       <a href="category.html" class="banner banner-menu">
-                        <img src="assets/images/menu/banner-1.jpg" alt="Banner" />
+                        <img src="images/banner.png" alt="Banner" />
                         <div class="banner-content banner-content-top">
-                          <div class="banner-title text-white">
-                            Last <br />Chance<br /><span><strong>Sale</strong></span>
+                          <div class="banner-title-2 text-white">
+                          ¡Últimas  <br />Ofertas<br /><span><strong>Imperdibles! </strong></span>
                           </div>
                         </div>
                       </a>
@@ -232,10 +232,10 @@
                   <div class="col-md-4">
                     <div class="banner banner-overlay">
                       <a href="category.html" class="banner banner-menu">
-                        <img src="assets/images/menu/banner-1.jpg" alt="Banner" />
+                        <img src="images/banner.png" alt="Banner" />
                         <div class="banner-content banner-content-top">
-                          <div class="banner-title text-white">
-                            Last <br />Chance<br /><span><strong>Sale</strong></span>
+                          <div class="banner-title-2 text-white">
+                          ¡Últimas  <br />Ofertas<br /><span><strong>Imperdibles! </strong></span>
                           </div>
                         </div>
                       </a>

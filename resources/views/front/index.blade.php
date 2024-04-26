@@ -1,31 +1,32 @@
 @extends('layouts.app')
 
 @section('content')
-
 <main class="main">
-    <div id="default-carousel" class="relative w-full slide-index" data-carousel="slide">
-        <!-- Carousel wrapper -->
-        <div class="relative h-96  overflow-hidden rounded-lg md:h-120">
-            <!-- Item 1 -->
-            <div class="duration-700 ease-in-out" data-carousel-item>
-                <img src="images/slide.jpg" class="absolute block w-50 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="Slide 1">
+    <div class="container">
+        <div id="" class="  carouselExampleIndicators" data-bs-ride="carousel">
+            <div class="carousel-inner  rounded-lg w-126 h-128 image-slider">
+                <div class="carousel-item active">
+                    <img src="images/slide.jpg" class="d-block w-full" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg" class="d-block w-full" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide3.jpg" class="d-block w-full" alt="Slide 3">
+                </div>
             </div>
-            <!-- Item 2 -->
-            <div class="duration-700 ease-in-out" data-carousel-item>
-                <img src="images/slide2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="Slide 2">
-            </div>
-            <!-- Item 3 -->
-            <div class="duration-700 ease-in-out" data-carousel-item>
-                <img src="images/slide3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="Slide 3">
-            </div>
+          
         </div>
-
-        
     </div>
 
     <div class="container py-3">
     <div class="section_maintitle wow fadeInDown animated hover" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
-        <h3 class="heading text-capitalize text-center t-destacado-2 ">Amplia Cobertura para Diversas Marcas</h3>
+    <span class="relative flex justify-center">
+  <div
+    class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "
+  ></div>
+  <span class="relative z-10 bg-white px-6"><h3 class="heading text-capitalize text-center t-destacado-2 ">Amplia Cobertura para Diversas Marcas</h3></span>
+</span> 
     </div>
     <div class="recruitercontainer">
     <div class="carousel-container">
@@ -60,6 +61,7 @@
               <div class="banner-top">
                 <div class="banner-title text-white text-center">
                   <i class="la la-star-o"></i>
+                  
                   <h3 class="text-white">¿Qué marca de auto tienes? Pregúntanos si lo tenemos</h3>
                 </div>
               </div>
@@ -71,7 +73,13 @@
           </div>
         </div>
         <div class="col-lg-9">
-          <h3 class="t-destacado">Productos en Oferta</h3>
+        <span class="relative flex justify-center">
+        <div
+          class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "
+        ></div>
+        <span class="relative z-10 bg-white px-6"><h3 class="t-destacado">Productos en Oferta</h3></span>
+      </span> 
+                
           <div class="tab-content tab-content-carousel">
             <div class="tab-pane p-0 fade show active" id="featured-women-tab" role="tabpanel" aria-labelledby="featured-women-link">
               <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
