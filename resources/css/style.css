@@ -6194,6 +6194,13 @@ p {
   transition: box-shadow 0.35s ease;
   background-color: #fff;
 }
+.catalogo-titulo{
+  font-size: 38px;
+  margin-top: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+}
 .owl-carousel .product {
   margin-bottom: 0 !important;
 }
@@ -9453,7 +9460,7 @@ button:focus {
   font-size: 3.4rem;
 }
 .carousel-with-shadow .owl-stage-outer {
-  padding: 0 30rem 2rem;
+  padding: 0 39rem 2rem;
     margin-left: -1rem;
     margin-right: -1rem;
     margin-top: 1rem;

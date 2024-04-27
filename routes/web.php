@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,7 +38,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //------------------------------------
-Route::get('/catalogo', [HomeController::class, 'catalogo']);
+
 // ver articulo
 Route::get('/articulo/{id}', [FrontController::class, 'ver_articulo'])->name('articulo');
 // ver categoria
@@ -49,3 +50,5 @@ Route::get('/formulario',[App\Http\Controllers\FormularioController::class, 'for
 // Ir al producto
 Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'producto' ])->name('producto');
 
+//Ir al catalogo
+Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalogo' ])->name('catalogo');
