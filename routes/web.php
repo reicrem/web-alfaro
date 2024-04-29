@@ -52,3 +52,6 @@ Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'product
 
 //Ir al catalogo
 Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalogo' ])->name('catalogo');
+
+//Mandar al whatsapp    
+Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar-consulta');
