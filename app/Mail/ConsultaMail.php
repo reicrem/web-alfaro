@@ -5,49 +5,44 @@ namespace App\Mail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Content;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
 class ConsultaMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $nombre;
+    public $telefono;
+    public $correo;
+    public $marca;
+    public $pieza;
+    public $patron;
+    public $anio;
+
     /**
      * Create a new message instance.
-     */
-    public function __construct()
-    {
-        //
-    }
-
-    /**
-     * Get the message envelope.
-     */
-    public function envelope(): Envelope
-    {
-        return new Envelope(
-            subject: 'Consulta Mail',
-        );
-    }
-
-    /**
-     * Get the message content definition.
-     */
-    public function content(): Content
-    {
-        return new Content(
-            view: 'view.name',
-        );
-    }
-
-    /**
-     * Get the attachments for the message.
      *
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
+     * @return void
      */
-    public function attachments(): array
+    public function __construct($nombre, $telefono, $correo, $marca, $pieza, $patron, $anio)
     {
-        return [];
+        $this->nombre = $nombre;
+        $this->telefono = $telefono;
+        $this->correo = $correo;
+        $this->marca = $marca;
+        $this->pieza = $pieza;
+        $this->patron = $patron;
+        $this->anio = $anio;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->subject('Consulta Mail')
+                    ->view('emails.consulta'); // Puedes crear una vista específica para el correo electrónico
     }
 }

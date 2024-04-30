@@ -18,7 +18,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Hyundai XTeer
             </h3>
 
@@ -39,7 +39,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Mann Filter
             </h3>
 
@@ -59,7 +59,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Shell Helix
             </h3>
 
@@ -80,7 +80,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Basic Tee
             </h3>
 
@@ -109,7 +109,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Basic Tee
             </h3>
 
@@ -130,7 +130,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Basic Tee
             </h3>
 
@@ -150,7 +150,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Basic Tee
             </h3>
 
@@ -171,7 +171,7 @@
           />
 
           <div class="relative bg-white pt-3">
-            <h3 class="text-xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
+            <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
               Basic Tee
             </h3>
 

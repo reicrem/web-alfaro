@@ -156,52 +156,52 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Carroceria</a></h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-2.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white">
                                 <a >Chassis</a>
                             </h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-3.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Accesorios</a></h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-10">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-4.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Aditivos</a></h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-lg-10">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-6.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
@@ -213,12 +213,12 @@
 
                 <div class="col-lg-10 ">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-7.png') }}" alt="Banner" />
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Correas</a></h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>

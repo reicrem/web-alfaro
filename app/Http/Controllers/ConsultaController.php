@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ConsultaMail;
 
 class ConsultaController extends Controller
 {
@@ -17,10 +19,12 @@ class ConsultaController extends Controller
         $patron = $request->input('patron');
         $anio = $request->input('anio');
 
-        // Construir el enlace de WhatsApp con los datos del formulario
-        $whatsappLink = "https://wa.me/56982456101/?text=Consulta%20de%20$nombre%0A$telefono%0A$correo%0A$marca%0A$pieza%0A$patron%0A$anio";
+        // Construir el enlace de Gmail con los datos del formulario
+        $emailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=kenywerjss17@gmail.com"
+                    . "&su=Consulta"
+                    . "&body=Nombre: $nombre%0ATeléfono: $telefono%0ACorreo: $correo%0AMarca: $marca%0APieza: $pieza%0APatrón de motor: $patron%0AAño: $anio";
 
-        // Redireccionar al enlace de WhatsApp
-        return redirect()->away($whatsappLink);
+        // Redirigir al enlace de Gmail
+        return redirect()->away($emailLink);
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\FormularioController;
-
+use App\Http\Controllers\ConsultaController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
@@ -45,7 +45,7 @@ Route::get('/articulo/{id}', [FrontController::class, 'ver_articulo'])->name('ar
 Route::get('/categoria/{link}', [FrontController::class, 'ver_categoria'])->name('categoria');
 
 // Ir al formulario
-Route::get('/formulario',[App\Http\Controllers\FormularioController::class, 'formulario'])->name('formulario'); 
+Route::get('/formulario', [App\Http\Controllers\FormularioController::class, 'formulario'])->name('formulario'); 
 
 // Ir al producto
 Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'producto' ])->name('producto');
@@ -53,5 +53,5 @@ Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'product
 //Ir al catalogo
 Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalogo' ])->name('catalogo');
 
-//Mandar al whatsapp    
-Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar-consulta');
+Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar.consulta');
+
