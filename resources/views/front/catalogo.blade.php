@@ -40,7 +40,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Mann Filter
+              Kit filtros Kia Frontier
             </h3>
 
             <p class="mt-2">
@@ -81,7 +81,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+              Interruptor de Señal
             </h3>
 
             <p class="mt-2">
@@ -110,7 +110,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+              Correas
             </h3>
 
             <p class="mt-2">
@@ -131,7 +131,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+              Mobil Super 2000
             </h3>
 
             <p class="mt-2">
@@ -151,7 +151,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+              Ampolleta Bombilla
             </h3>
 
             <p class="mt-2">
@@ -172,7 +172,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Basic Tee
+              Quick Starter Edge
             </h3>
 
             <p class="mt-2">
