@@ -55,3 +55,6 @@ Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalog
 
 Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar.consulta');
 
+//ir a aceites y sus paginas
+Route::get('/aceite',[App\Http\Controllers\AceiteController::class, 'aceite' ])->name('aceite');
+Route::get('/aceite2', [App\Http\Controllers\Aceite2Controller::class, 'aceite2'])->name('aceite2');

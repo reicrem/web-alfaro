@@ -124,7 +124,7 @@
               <a href="{{ route('catalogo') }}">Amortiguiadores</a>
             </li>
             <li>
-              <a href="{{ route('catalogo') }}" class="sf-with-ul">Lubricantes</a>
+              <a href="{{ route('aceite') }}" class="sf-with-ul">Lubricantes</a>
               <div class="megamenu megamenu-md ">
                 <div class="row no-gutters">
                   <div class="col-md-8 menu-drop">
