@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="marca">{{ __('Marca de Auto') }}</label>
+                            <label for="marca">{{ __('Marca y modelo') }}</label>
                             <input id="marca" type="text" class="form-control bg-gray-50 border-2 border-blue-300 text-black text-xl rounded-xl" name="marca" required>
                         </div>
 
@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="patron">{{ __('Patrón de motor') }}</label>
+                            <label for="patron">{{ __('N° Motor') }}</label>
                             <input id="patron" type="text" class="form-control bg-gray-50 border-2 border-blue-300 text-black text-xl rounded-xl" name="patron" required>
                         </div>
 
