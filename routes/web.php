@@ -58,3 +58,10 @@ Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->
 //ir a aceites y sus paginas
 Route::get('/aceite',[App\Http\Controllers\AceiteController::class, 'aceite' ])->name('aceite');
 Route::get('/aceite2', [App\Http\Controllers\Aceite2Controller::class, 'aceite2'])->name('aceite2');
+
+//ir a filtros
+Route::get('/filtros',[App\Http\Controllers\FiltrosController::class, 'filtros'])->name('filtros');
+
+//ir a las aguas
+Route::get('/aguas',[App\Http\Controllers\AguasController::class, 'aguas'])->name('aguas');
+Route::get('/aguas2',[App\Http\Controllers\Aguas2Controller::class, 'aguas2'])->name('aguas2');

@@ -7801,6 +7801,9 @@ p {
     font-size: 4rem;
   }
 }
+.articulos{
+  margin-bottom: 30px;
+}
 @media screen and (min-width: 992px) {
   .banner-content {
     right: 5rem;

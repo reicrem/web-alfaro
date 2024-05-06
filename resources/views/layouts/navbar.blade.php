@@ -141,8 +141,8 @@
                         <div class="col-md-6">
                           <div class="menu-title">Agua y Anticongelantes</div>
                           <ul>
-                            <li><a href="">Aguas</a></li>
-                            <li><a href="">Anticongelantes Y Refrigerantes</a></li>
+                            <li><a href="{{ route('aguas') }}">Aguas</a></li>
+                            <li><a href="{{ route('aguas') }}">Anticongelantes Y Refrigerantes</a></li>
                           </ul>
                         </div>
                       </div>
@@ -164,7 +164,7 @@
               </div>
             </li>
             <li>
-              <a href="{{ route('catalogo') }}" class="sf-with-ul">Filtros</a>
+              <a href="{{ route('filtros') }}" class="sf-with-ul">Filtros</a>
               <div class="megamenu megamenu-md">
                 <div class="row no-gutters">
                   <div class="col-md-8">
