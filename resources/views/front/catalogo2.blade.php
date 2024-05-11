@@ -12,7 +12,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-1.png') }}"
+            src="{{ asset('images/bombaagua1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -33,7 +33,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-2.png') }}"
+            src="{{ asset('images/bombaagua2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -53,7 +53,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-3.png') }}"
+            src="{{ asset('images/grasa1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -74,7 +74,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-4.png') }}"
+            src="{{ asset('images/grasa2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -103,7 +103,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-5.png') }}"
+            src="{{ asset('images/alarma.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -124,7 +124,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-6.png') }}"
+            src="{{ asset('images/fancluche1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -144,7 +144,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-7.png') }}"
+            src="{{ asset('images/fancluche2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -165,7 +165,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-8.png') }}"
+            src="{{ asset('images/puerta.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -192,7 +192,7 @@
 <ol class="flex justify-center gap-1 text-xl font-medium">
 
 
-  <li>
+<li>
     <a
       href="{{ route('catalogo') }}"
       class="block size-10 mb-5 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"

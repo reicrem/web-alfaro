@@ -192,7 +192,7 @@
 <ol class="flex justify-center gap-1 text-xl font-medium">
 
 
-  <li>
+<li>
     <a
       href="{{ route('catalogo') }}"
       class="block size-10 mb-5 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"

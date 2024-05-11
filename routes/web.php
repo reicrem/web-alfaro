@@ -52,6 +52,9 @@ Route::get('/producto',[App\Http\Controllers\ProductoController::class, 'product
 
 //Ir al catalogo
 Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalogo' ])->name('catalogo');
+Route::get('/catalogo2',[App\Http\Controllers\Catalogo2Controller::class, 'catalogo2' ])->name('catalogo2');
+Route::get('/catalogo3',[App\Http\Controllers\Catalogo3Controller::class, 'catalogo3' ])->name('catalogo3');
+Route::get('/catalogo4',[App\Http\Controllers\Catalogo4Controller::class, 'catalogo4' ])->name('catalogo4');
 
 Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar.consulta');
 
