@@ -19,7 +19,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Hyundai XTeer
+            Ventilador de Clutch
             </h3>
 
             <p class="mt-2">
@@ -40,7 +40,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Kit filtros Kia Frontier
+            Bomba de agua STP
             </h3>
 
             <p class="mt-2">
@@ -60,7 +60,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Shell Helix
+            Bomba de agua KAP
             </h3>
 
             <p class="mt-2">
@@ -81,7 +81,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Interruptor de Señal
+            Bomba de agua ATC
             </h3>
 
             <p class="mt-2">
@@ -110,7 +110,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Correas
+              Adaptador-Filtro de Combustible
             </h3>
 
             <p class="mt-2">
@@ -131,7 +131,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Mobil Super 2000
+            Bomba de agua ATC
             </h3>
 
             <p class="mt-2">
@@ -151,8 +151,8 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Ampolleta Bombilla
-            </h3>
+            Bomba de agua WA
+            </h3> 
 
             <p class="mt-2">
              
@@ -172,7 +172,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Quick Starter Edge
+            Bomba de agua KoreaStar
             </h3>
 
             <p class="mt-2">

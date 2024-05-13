@@ -19,7 +19,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Hyundai XTeer
+              Bomba de agua Korea Star
             </h3>
 
             <p class="mt-2">
@@ -40,7 +40,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Kit filtros Kia Frontier
+              Bomba de agua ATC
             </h3>
 
             <p class="mt-2">
@@ -60,7 +60,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Shell Helix
+              Grasa BURTONRED
             </h3>
 
             <p class="mt-2">
@@ -81,7 +81,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Interruptor de Señal
+              Grasa BURTONMOLY
             </h3>
 
             <p class="mt-2">
@@ -110,7 +110,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Correas
+              Sistema de alarma
             </h3>
 
             <p class="mt-2">
@@ -131,7 +131,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Mobil Super 2000
+              Ventilador de Clutch
             </h3>
 
             <p class="mt-2">
@@ -151,7 +151,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Ampolleta Bombilla
+            Ventilador de Clutch
             </h3>
 
             <p class="mt-2">
@@ -172,7 +172,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Quick Starter Edge
+              Sistema de puertas
             </h3>
 
             <p class="mt-2">
