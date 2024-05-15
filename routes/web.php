@@ -55,6 +55,7 @@ Route::get('/catalogo',[App\Http\Controllers\CatalogoController::class, 'catalog
 Route::get('/catalogo2',[App\Http\Controllers\Catalogo2Controller::class, 'catalogo2' ])->name('catalogo2');
 Route::get('/catalogo3',[App\Http\Controllers\Catalogo3Controller::class, 'catalogo3' ])->name('catalogo3');
 Route::get('/catalogo4',[App\Http\Controllers\Catalogo4Controller::class, 'catalogo4' ])->name('catalogo4');
+Route::get('/catalogo5',[App\Http\Controllers\Catalogo5Controller::class, 'catalogo5' ])->name('catalogo5');
 
 Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->name('enviar.consulta');
 

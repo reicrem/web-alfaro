@@ -12,14 +12,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-1.png') }}"
+            src="{{ asset('images/kitdistribu2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Hyundai XTeer
+            Kit de Distribucion Syncro MAX
             </h3>
 
             <p class="mt-2">
@@ -33,14 +33,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-2.png') }}"
+            src="{{ asset('images/kitdistribu3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Kit filtros Kia Frontier
+            Kit de Distribucion PowerGrip
             </h3>
 
             <p class="mt-2">
@@ -53,14 +53,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-3.png') }}"
+            src="{{ asset('images/kitdistribu7.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Shell Helix
+            Kit de Distribucion Motor Iseven
             </h3>
 
             <p class="mt-2">
@@ -74,14 +74,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-4.png') }}"
+            src="{{ asset('images/kitdistribu5.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Interruptor de Señal
+            Kit de Distribucion Royal
             </h3>
 
             <p class="mt-2">
@@ -103,14 +103,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-5.png') }}"
+            src="{{ asset('images/pastillafreno1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Correas
+              Pastilla de Freno SBP
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-6.png') }}"
+            src="{{ asset('images/pastillafreno2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Mobil Super 2000
+            Pastilla de Freno HL Mando
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-7.png') }}"
+            src="{{ asset('images/pastillafreno3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Ampolleta Bombilla
+            Pastilla de Freno HI Tec
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-8.png') }}"
+            src="{{ asset('images/pastillafreno4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Quick Starter Edge
+            Pastilla de Freno SBP
             </h3>
 
             <p class="mt-2">

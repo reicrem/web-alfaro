@@ -12,14 +12,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-1.png') }}"
+            src="{{ asset('images/cruceta1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Hyundai XTeer
+              Cruceta GMB
             </h3>
 
             <p class="mt-2">
@@ -33,14 +33,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-2.png') }}"
+            src="{{ asset('images/cruceta2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Kit filtros Kia Frontier
+            Cruceta GMB
             </h3>
 
             <p class="mt-2">
@@ -53,14 +53,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-3.png') }}"
+            src="{{ asset('images/cruceta3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Shell Helix
+            Cruceta GMB
             </h3>
 
             <p class="mt-2">
@@ -74,14 +74,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-4.png') }}"
+            src="{{ asset('images/limpiayectores.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Interruptor de Señal
+              Limpia Inyectores
             </h3>
 
             <p class="mt-2">
@@ -103,14 +103,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-5.png') }}"
+            src="{{ asset('images/limpiacatalizador.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Correas
+              Limpia Catalizador
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-6.png') }}"
+            src="{{ asset('images/aditivoaceite.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Mobil Super 2000
+              Aditivo de Aceite
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-7.png') }}"
+            src="{{ asset('images/aditivomotores.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Ampolleta Bombilla
+              Aditivo de Motores
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/catalogo-8.png') }}"
+            src="{{ asset('images/kitdistribu1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Quick Starter Edge
+              Kit de Distribucion Royal
             </h3>
 
             <p class="mt-2">
@@ -225,6 +225,15 @@
       class="block size-10 mb-5 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"
     >
       4
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="{{ route('catalogo5') }}"
+      class="block size-10 mb-5 rounded border border-gray-100 bg-white text-center leading-8 text-gray-900"
+    >
+      5
     </a>
   </li>
 
