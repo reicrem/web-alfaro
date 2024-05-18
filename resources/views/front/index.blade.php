@@ -156,7 +156,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Carroceria</a></h3>
-                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('carroceria') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Aditivos</a></h3>
-                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('aceite') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Baterias</a></h3>
-                            <a href="#" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('baterias') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>

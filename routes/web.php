@@ -69,3 +69,13 @@ Route::get('/filtros',[App\Http\Controllers\FiltrosController::class, 'filtros']
 //ir a las aguas
 Route::get('/aguas',[App\Http\Controllers\AguasController::class, 'aguas'])->name('aguas');
 Route::get('/aguas2',[App\Http\Controllers\Aguas2Controller::class, 'aguas2'])->name('aguas2');
+
+//ir a amortiguadores
+Route::get('/amortiguador',[App\Http\Controllers\AmortiguadorController::class, 'amortiguador'])->name('amortiguador');
+
+
+//ir a carroceria
+Route::get('/carroceria',[App\Http\Controllers\CarroceriaController::class, 'carroceria'])->name('carroceria');
+
+//ir a baterias
+Route::get('/baterias',[App\Http\Controllers\BateriasController::class, 'baterias'])->name('baterias');

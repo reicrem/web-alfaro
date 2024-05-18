@@ -121,7 +121,7 @@
               <a href="index.php">Inicio</a>
             </li>
             <li>
-              <a href="{{ route('catalogo') }}">Amortiguiadores</a>
+              <a href="{{ route('amortiguador') }}">Amortiguiadores</a>
             </li>
             <li>
               <a href="{{ route('aceite') }}" class="sf-with-ul">Lubricantes</a>
@@ -205,7 +205,7 @@
               </div>
             </li>
             <li>
-              <a href="{{ route('catalogo') }}" class="sf-with-ul">Baterias</a>
+              <a href="{{ route('baterias') }}" class="sf-with-ul">Baterias</a>
               <div class="megamenu megamenu-md">
                 <div class="row no-gutters">
                   <div class="col-md-8">
