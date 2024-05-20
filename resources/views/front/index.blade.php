@@ -168,7 +168,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white">
-                                <a >Chassis</a>
+                                <a >Catalogo</a>
                             </h3>
                             <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
@@ -182,7 +182,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Accesorios</a></h3>
-                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('accesorios') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                         </a>
                         <div class="banner-content">
                             <h3 class="banner-title text-white"><a >Correas</a></h3>
-                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
+                            <a href="{{ route('correas') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
                         </div>
                     </div>
                 </div>

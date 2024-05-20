@@ -79,3 +79,16 @@ Route::get('/carroceria',[App\Http\Controllers\CarroceriaController::class, 'car
 
 //ir a baterias
 Route::get('/baterias',[App\Http\Controllers\BateriasController::class, 'baterias'])->name('baterias');
+
+//ir a accesorios
+Route::get('/accesorios',[App\Http\Controllers\AccesoriosController::class, 'accesorios'])->name('accesorios');
+
+
+//ir a herramientas 
+Route::get('/herramientas',[App\Http\Controllers\HerramientasController::class, 'herramientas'])->name('herramientas');
+
+//ir a iluminacion
+Route::get('/iluminacion',[App\Http\Controllers\IluminacionController::class, 'iluminacion'])->name('iluminacion');
+
+//ir a correas
+Route::get('/correas',[App\Http\Controllers\CorreasController::class, 'correas'])->name('correas');

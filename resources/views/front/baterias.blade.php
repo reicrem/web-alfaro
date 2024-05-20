@@ -12,14 +12,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu2.png') }}"
+            src="{{ asset('images/bateria1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Syncro MAX
+            Bateria Quick Starter 12v CCA 340A
             </h3>
 
             <p class="mt-2">
@@ -33,14 +33,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu3.png') }}"
+            src="{{ asset('images/bateria2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion PowerGrip
+            Bateria Quick Starter 12v CCA 235
             </h3>
 
             <p class="mt-2">
@@ -53,14 +53,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu7.png') }}"
+            src="{{ asset('images/bateria3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Motor Iseven
+            Bateria Quick Starter 12v CCA 640A(EN)
             </h3>
 
             <p class="mt-2">
@@ -74,14 +74,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu5.png') }}"
+            src="{{ asset('images/bateria4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Royal
+            Bateria Quick Starter 12v CCA 350A(EN)
             </h3>
 
             <p class="mt-2">
@@ -103,14 +103,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno1.png') }}"
+            src="{{ asset('images/bateria5.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Pastilla de Freno SBP
+            Bateria Quick Starter 12v CCA 750
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno2.png') }}"
+            src="{{ asset('images/catalogo-8.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno HL Mando
+            Bateria Quick Starter 12v CCA 750
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno3.png') }}"
+            src="{{ asset('images/bateria6.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno HI Tec
+            Bateria Quick Starter 12v CCA 340
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno4.png') }}"
+            src="{{ asset('images/bateria7.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno SBP
+            Bateria Quick Starter 12v CCA 370A(EN)
             </h3>
 
             <p class="mt-2">
@@ -189,7 +189,7 @@
   opciones de pagina
 -->
 
-<ol class="flex justify-center gap-1 text-xl font-medium">
+<!-- <ol class="flex justify-center gap-1 text-xl font-medium">
 
 
 <li>
@@ -237,7 +237,7 @@
     </a>
   </li>
 
-</ol>
+</ol> -->
 </section>
 
 

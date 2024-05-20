@@ -5,14 +5,14 @@
 <section>
   <div class="mx-auto max-w-screen-xl px-4 pb-0 sm:px-6 sm:py-12 lg:px-8">
     <header class="text-center">
-      <h2 class=" font-bold text-gray-900  catalogo-titulo">Carroceria</h2>
+      <h2 class=" font-bold text-gray-900  catalogo-titulo">Correas</h2>
     </header>
 
     <ul class="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luzdelantera1.png') }}"
+            src="{{ asset('images/cable1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -33,7 +33,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luzdelantera2.png') }}"
+            src="{{ asset('images/cable2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -53,7 +53,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luztracera1.png') }}"
+            src="{{ asset('images/cable3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -74,7 +74,7 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luztracera2.png') }}"
+            src="{{ asset('images/cable4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
@@ -103,14 +103,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor1.png') }}"
+            src="{{ asset('images/cablebujia1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Retrovisor
+            Cable de Bujía Daewoo Spero
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor2.png') }}"
+            src="{{ asset('images/cablebujia2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Cable Bujía Kia Morning
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor3.png') }}"
+            src="{{ asset('images/cablebujia3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Cable de Bujía Chevrolet Corsa
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor4.png') }}"
+            src="{{ asset('images/cablebujia4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Cable de Bujía Suzuki Swift
             </h3>
 
             <p class="mt-2">

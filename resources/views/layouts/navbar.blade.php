@@ -245,7 +245,7 @@
               </div>
             </li>
             <li>
-              <a href="{{ route('catalogo') }}" class="sf-with-ul">Iluminaci&oacute;n</a>
+              <a href="{{ route('iluminacion') }}" class="sf-with-ul">Iluminaci&oacute;n</a>
               <div class="megamenu megamenu-md">
                 <div class="row no-gutters">
                   <div class="col-md-12">
@@ -284,8 +284,8 @@
                 </div>
               </div>
             </li>
-            <li><a href="">Accesorios</a></li>
-            <li><a href="">Herramientas</a></li>
+            <li><a href="{{ route('accesorios') }}">Accesorios</a></li>
+            <li><a href="{{ route('herramientas') }}">Herramientas</a></li>
           </ul>
         </nav>
         <button class="mobile-menu-toggler">

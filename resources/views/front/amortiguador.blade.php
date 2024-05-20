@@ -12,14 +12,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu2.png') }}"
+            src="{{ asset('images/amortiguador1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Syncro MAX
+            Amortiguador Delantero Kia Morning
             </h3>
 
             <p class="mt-2">
@@ -33,14 +33,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu3.png') }}"
+            src="{{ asset('images/amortiguador2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion PowerGrip
+            Amortiguador Delantero Chevrolet Aveo-Sail
             </h3>
 
             <p class="mt-2">
@@ -53,14 +53,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu7.png') }}"
+            src="{{ asset('images/amortiguador3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Motor Iseven
+            Amortiguador Delantero Hyundai H1
             </h3>
 
             <p class="mt-2">
@@ -74,14 +74,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/kitdistribu5.png') }}"
+            src="{{ asset('images/amortiguador4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Kit de Distribucion Royal
+            Amortiguador Delantero Chevrolet Corsa
             </h3>
 
             <p class="mt-2">
@@ -103,14 +103,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno1.png') }}"
+            src="{{ asset('images/amortiguador5.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Pastilla de Freno SBP
+            Amortiguador Delantero Mazda 2
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno2.png') }}"
+            src="{{ asset('images/amortiguador6.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno HL Mando
+            Amortiguador Delantero Hyundai Acent
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno3.png') }}"
+            src="{{ asset('images/amortiguador7.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno HI Tec
+            Amortiguador Delantero Suzuki SX4
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/pastillafreno4.png') }}"
+            src="{{ asset('images/amortiguador8.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Pastilla de Freno SBP
+            Amortiguador Delantero Toyota Yaris
             </h3>
 
             <p class="mt-2">

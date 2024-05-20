@@ -5,21 +5,21 @@
 <section>
   <div class="mx-auto max-w-screen-xl px-4 pb-0 sm:px-6 sm:py-12 lg:px-8">
     <header class="text-center">
-      <h2 class=" font-bold text-gray-900  catalogo-titulo">Carroceria</h2>
+      <h2 class=" font-bold text-gray-900  catalogo-titulo">Accesorios</h2>
     </header>
 
     <ul class="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luzdelantera1.png') }}"
+            src="{{ asset('images/accesorio1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Luz Delantera
+            Kit Cargador de Celulares
             </h3>
 
             <p class="mt-2">
@@ -33,14 +33,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luzdelantera2.png') }}"
+            src="{{ asset('images/accesorio2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Luz Delantera
+            Encendedor de Cigarrillos
             </h3>
 
             <p class="mt-2">
@@ -53,14 +53,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luztracera1.png') }}"
+            src="{{ asset('images/accesorio3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Luz Trasera 
+            Manguera Hidráulica de Freno
             </h3>
 
             <p class="mt-2">
@@ -74,14 +74,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/luztracera2.png') }}"
+            src="{{ asset('images/accesorio4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Luz Trasera 
+            Escobilla de Acero
             </h3>
 
             <p class="mt-2">
@@ -97,20 +97,20 @@
 </section>
 
 <section>
-  <div class="mx-auto pt-0 max-w-screen-xl px-4 mb-0 sm:px-6 sm:py-12 lg:px-8">
+  <!-- <div class="mx-auto pt-0 max-w-screen-xl px-4 mb-0 sm:px-6 sm:py-12 lg:px-8">
 
     <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor1.png') }}"
+            src="{{ asset('images/pastillafreno1.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-              Retrovisor
+              Pastilla de Freno SBP
             </h3>
 
             <p class="mt-2">
@@ -124,14 +124,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor2.png') }}"
+            src="{{ asset('images/pastillafreno2.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Pastilla de Freno HL Mando
             </h3>
 
             <p class="mt-2">
@@ -144,14 +144,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor3.png') }}"
+            src="{{ asset('images/pastillafreno3.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Pastilla de Freno HI Tec
             </h3>
 
             <p class="mt-2">
@@ -165,14 +165,14 @@
       <li>
         <a href="#" class="group block overflow-hidden">
           <img
-            src="{{ asset('images/retrovisor4.png') }}"
+            src="{{ asset('images/pastillafreno4.png') }}"
             alt=""
             class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
           />
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Retrovisor
+            Pastilla de Freno SBP
             </h3>
 
             <p class="mt-2">
@@ -183,7 +183,7 @@
         </a>
       </li>
     </ul>
-  </div>
+  </div> -->
   
   <!--
   opciones de pagina
