@@ -19,7 +19,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 340A
+            Bateria Quick Starter 12v CCA 340A 40Ah
             </h3>
 
             <p class="mt-2">
@@ -40,7 +40,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 235
+            Bateria Quick Starter 12v CCA 235 24Ah
             </h3>
 
             <p class="mt-2">
@@ -60,7 +60,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 640A(EN)
+            Bateria Quick Starter 12v CCA 640A(EN) 71Ah
             </h3>
 
             <p class="mt-2">
@@ -81,7 +81,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 350A(EN)
+            Bateria Quick Starter 12v CCA 350A(EN) 55Ah
             </h3>
 
             <p class="mt-2">
@@ -110,7 +110,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 750
+            Bateria Quick Starter 12v CCA 750 90Ah
             </h3>
 
             <p class="mt-2">
@@ -151,7 +151,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 340
+            Bateria Quick Starter 12v CCA 340 35Ah
             </h3>
 
             <p class="mt-2">
@@ -172,7 +172,7 @@
 
           <div class="relative bg-white pt-3">
             <h3 class="text-2xl text-gray-700 group-hover:underline group-hover:underline-offset-4">
-            Bateria Quick Starter 12v CCA 370A(EN)
+            Bateria Quick Starter 12v CCA 370A(EN) 55Ah
             </h3>
 
             <p class="mt-2">
