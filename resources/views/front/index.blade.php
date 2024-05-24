@@ -4,7 +4,7 @@
 <main class="main">
     <div class="container">
         <div id="" class=" carouselExampleIndicators" data-bs-ride="carousel">
-            <div class="carousel-inner  rounded-lg w-126 h-82 image-slider">
+            <div class="carousel-inner  rounded-lg w-auto h-auto image-slider">
                 <div class="carousel-item active">
                     <img src="images/slide.png" class="d-block w-full" alt="Slide 1">
                 </div>
