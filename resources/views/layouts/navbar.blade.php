@@ -118,7 +118,7 @@
         <nav class="main-nav">
           <ul class="menu sf-arrows">
             <li class="active">
-              <a href="index.php">Inicio</a>
+              <a href="{{ route('inicio') }}">Inicio</a>
             </li>
             <li>
               <a href="{{ route('amortiguador') }}">Amortiguiadores</a>

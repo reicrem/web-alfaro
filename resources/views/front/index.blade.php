@@ -114,8 +114,8 @@
                   <div class="product product-7">
                     <figure class="product-media">
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">
-                        <img src="https://www.alfarorepuestos.cl/kallfu/{{ $articulo->imagen }}" class="product-image" />
-                        <img src="https://www.alfarorepuestos.cl/kallfu/{{ $articulo->imagen }}" class="product-image-hover" />
+                        <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image" />
+                        <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image-hover" />
                       </a>
                       <div class="product-action-vertical">
                         <a href="{{ route('producto') }}" class="btn-product-icon btn-quickview"><span>Ver</span></a>
@@ -149,7 +149,7 @@
       </div>
     </div>
     
-    <div class="col-lg-4 ">
+    <div class="col-lg-4 col-md-6 ">
                     <div class="banner banner-overlay">
                         <a href="#">
                             <img src="{{ asset('images/banner-1.png') }}" alt="Banner" />
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-sm-6">
                     <div class="banner banner-overlay">
                         <a href="{{ route('catalogo') }}">
                             <img src="{{ asset('images/banner-2.png') }}" alt="Banner" />

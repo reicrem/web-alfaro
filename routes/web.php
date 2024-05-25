@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\FrontController::class, 'index']);
+Route::get('/', [App\Http\Controllers\FrontController::class, 'index'])->name('inicio');
 
 Route::post('cart/add', [App\Http\Controllers\CartController::class, 'add'])->name('add');
 Route::get('cart/checkout', [App\Http\Controllers\CartController::class, 'checkout'])->name('checkout');
