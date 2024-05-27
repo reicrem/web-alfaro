@@ -326,12 +326,8 @@ blockquote.text-white cite span {
   padding-left: 10px;
 
 }
-.col-lg-4{
-  padding-top: 17px;
-  width: 487px ;
-  display: inline-block;
-  left: 46px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+.fondoboton{
+background: #0C4876;
 }
 .col-lg-10{
   padding-top: 17px;
@@ -2348,7 +2344,7 @@ blockquote.text-white cite span {
   top: 0;
   bottom: 0;
   z-index: 1001;
-  background-color: #333;
+  background-color: #093659;
   width: 100%;
   max-width: 280px;
   overflow-y: scroll;
@@ -2386,7 +2382,10 @@ blockquote.text-white cite span {
 .mobile-menu-wrapper {
   position: relative;
   padding: 4.2rem 0;
+  font-size: 18px;
+
 }
+
 .mobile-menu-close {
   display: flex;
   align-items: center;

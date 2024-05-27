@@ -149,79 +149,59 @@
       </div>
     </div>
     
-    <div class="col-lg-4 col-md-6 ">
-                    <div class="banner banner-overlay">
-                        <a href="#">
-                            <img src="{{ asset('images/banner-1.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white"><a >Carroceria</a></h3>
-                            <a href="{{ route('carroceria') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
+    <section>
+  <div class="mx-auto max-w-screen-1xl px-4 sm:px-6 sm:py-12 lg:px-8 pb-2">
+    <ul class=" grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-1.png') }}" alt="Carroceria" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Carroceria</h3>
+          <a href="{{ route('carroceria') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="banner banner-overlay">
-                        <a href="{{ route('catalogo') }}">
-                            <img src="{{ asset('images/banner-2.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white">
-                                <a >Catalogo</a>
-                            </h3>
-                            <a href="{{ route('catalogo') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-2.png') }}" alt="Catalogo" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Catalogo</h3>
+          <a href="{{ route('catalogo') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black hover:text-black hover:shadow-md font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
 
-                <div class="col-lg-4">
-                    <div class="banner banner-overlay">
-                        <a href="{{ route('catalogo') }}">
-                            <img src="{{ asset('images/banner-3.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white"><a >Accesorios</a></h3>
-                            <a href="{{ route('accesorios') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-3.png') }}" alt="Accesorios" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Accesorios</h3>
+          <a href="{{ route('accesorios') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
 
-                <div class="col-lg-10">
-                    <div class="banner banner-overlay">
-                        <a href="{{ route('catalogo') }}">
-                            <img src="{{ asset('images/banner-4.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white"><a >Aditivos</a></h3>
-                            <a href="{{ route('aceite') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-10">
-                    <div class="banner banner-overlay">
-                        <a href="{{ route('catalogo') }}">
-                            <img src="{{ asset('images/banner-6.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white"><a >Baterias</a></h3>
-                            <a href="{{ route('baterias') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-4.png') }}" alt="Aditivos" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Aditivos</h3>
+          <a href="{{ route('aceite') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
 
-                <div class="col-lg-10 ">
-                    <div class="banner banner-overlay">
-                        <a href="{{ route('catalogo') }}">
-                            <img src="{{ asset('images/banner-7.png') }}" alt="Banner" />
-                        </a>
-                        <div class="banner-content">
-                            <h3 class="banner-title text-white"><a >Correas</a></h3>
-                            <a href="{{ route('correas') }}" class="btn btn-outline-white banner-link">Comprar ahora</a>
-                        </div>
-                    </div>
-                </div>
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-6.png') }}" alt="Baterias" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Baterias</h3>
+          <a href="{{ route('baterias') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
+
+      <li class="relative group block overflow-hidden border border-gray-200 rounded-xl">
+        <img src="{{ asset('images/banner-7.png') }}" alt="Correas" class="h-[380px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[480px]" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition duration-500 rounded-xl">
+          <h3 class="text-5xl text-white font-normal font-mono">Correas</h3>
+          <a href="{{ route('correas') }}" class="mt-2 px-4 py-2 fondoboton text-white rounded-full transition duration-300 btn hover:bg-black font-medium font-mono text-2xl">Comprar ahora</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
                 
                 
 
