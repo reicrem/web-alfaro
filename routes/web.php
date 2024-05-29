@@ -62,6 +62,9 @@ Route::post('/enviar-consulta', [ConsultaController::class, 'enviarConsulta'])->
 //ir a aceites y sus paginas
 Route::get('/aceite',[App\Http\Controllers\AceiteController::class, 'aceite' ])->name('aceite');
 Route::get('/aceite2', [App\Http\Controllers\Aceite2Controller::class, 'aceite2'])->name('aceite2');
+Route::get('/aceitecaja',[App\Http\Controllers\AceitecajaController::class, 'aceitecaja'])->name('aceitecaja');
+Route::get('/aceitemotor',[App\Http\Controllers\AceitemotorController::class, 'aceitemotor'])->name('aceitemotor');
+Route::get('/aceitemotos',[App\Http\Controllers\AceitemotosController::class, 'aceitemotos'])->name('aceitemotos');
 
 //ir a filtros
 Route::get('/filtros',[App\Http\Controllers\FiltrosController::class, 'filtros'])->name('filtros');
@@ -79,6 +82,7 @@ Route::get('/carroceria',[App\Http\Controllers\CarroceriaController::class, 'car
 
 //ir a baterias
 Route::get('/baterias',[App\Http\Controllers\BateriasController::class, 'baterias'])->name('baterias');
+Route::get('/bateriasmoto',[App\Http\Controllers\BateriasmotoController::class, 'bateriasmoto'])->name('bateriasmoto');
 
 //ir a accesorios
 Route::get('/accesorios',[App\Http\Controllers\AccesoriosController::class, 'accesorios'])->name('accesorios');
@@ -92,3 +96,5 @@ Route::get('/iluminacion',[App\Http\Controllers\IluminacionController::class, 'i
 
 //ir a correas
 Route::get('/correas',[App\Http\Controllers\CorreasController::class, 'correas'])->name('correas');
+
+

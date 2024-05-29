@@ -133,15 +133,14 @@
                         <div class="col-md-6">
                           <div class="menu-title">Lubricantes</div>
                           <ul>
-                            <li><a href="">Aceite Motor</a></li>
-                            <li><a href="">Aceite Caja</a></li>
-                            <li><a href="">Aceite Motos</a></li>
+                            <li><a href="{{ route('aceitemotor') }}">Aceite Motor</a></li>
+                            <li><a href="{{ route('aceitecaja') }}">Aceite Caja</a></li>
+                            <li><a href="{{ route('aceitemotos') }}">Aceite Motos</a></li>
                           </ul>
                         </div>
                         <div class="col-md-6">
                           <div class="menu-title">Agua y Anticongelantes</div>
                           <ul>
-                            <li><a href="{{ route('aguas') }}">Aguas</a></li>
                             <li><a href="{{ route('aguas') }}">Anticongelantes Y Refrigerantes</a></li>
                           </ul>
                         </div>
@@ -181,9 +180,9 @@
                           </ul>
                         </div>
                         <div class="col-md-6">
-                          <div class="menu-title">Otros</div>
+                          <div class="menu-title">Embrague</div>
                           <ul>
-                            <li><a href="{{ route('catalogo') }}">Herramientas</a></li>
+                            <li><a href="{{ route('catalogo') }}">Kit de Embrague</a></li>
                           </ul>
                         </div>
                       </div>
@@ -214,7 +213,7 @@
                         <div class="col-md-6">
                           <div class="menu-title">Baterias</div>
                           <ul>
-                            <li><a href="">Baterias de Auto</a></li>
+                            <li><a href="{{ route('baterias') }}">Baterias de Auto</a></li>
                             <li><a href="">Baterias de Moto</a></li>
                           </ul>
                         </div>
