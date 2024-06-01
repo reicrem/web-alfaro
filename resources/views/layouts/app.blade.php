@@ -47,8 +47,9 @@
             <a href="{{ route('inicio') }}">INICIO</a>
             
         </li>
+        <li><a href="{{ route('catalogo') }}">Catalogo</a></li>
         <li>
-            <a href="{{ route('amortiguador') }}">AMORTIGUIADORES</a>
+            <a href="{{ route('amortiguador') }}">AMORTIGUADORES</a>
 
         </li>
         <li>

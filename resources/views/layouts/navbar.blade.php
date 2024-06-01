@@ -120,8 +120,9 @@
             <li class="active">
               <a href="{{ route('inicio') }}">Inicio</a>
             </li>
+            <li><a href="{{ route('catalogo') }}">Catalogo</a></li>
             <li>
-              <a href="{{ route('amortiguador') }}">Amortiguiadores</a>
+              <a href="{{ route('amortiguador') }}">Amortiguadores</a>
             </li>
             <li>
               <a href="{{ route('aceite') }}" class="sf-with-ul">Lubricantes</a>
@@ -136,12 +137,13 @@
                             <li><a href="{{ route('aceitemotor') }}">Aceite Motor</a></li>
                             <li><a href="{{ route('aceitecaja') }}">Aceite Caja</a></li>
                             <li><a href="{{ route('aceitemotos') }}">Aceite Motos</a></li>
+                            <li><a href="{{ route('aceitedireccion') }}">Aceite Dirección</a></li>
                           </ul>
                         </div>
                         <div class="col-md-6">
                           <div class="menu-title">Agua y Anticongelantes</div>
                           <ul>
-                            <li><a href="{{ route('aguas') }}">Anticongelantes Y Refrigerantes</a></li>
+                            <li><a href="{{ route('aguas') }}">Aguas Y Anticongelantes</a></li>
                           </ul>
                         </div>
                       </div>
@@ -172,17 +174,17 @@
                         <div class="col-md-6">
                           <div class="menu-title">Filtros</div>
                           <ul>
-                            <li><a href="">Filtros de Aceite</a></li>
-                            <li><a href="">Filtros de Aire</a></li>
-                            <li><a href="">Filtros de Petroleo</a></li>
-                            <li><a href="">Filtros de Bencina</a></li>
-                            <li><a href="">Filtros de Cabina</a></li>
+                            <li><a href="{{ route('filtrosaceite') }}">Filtros de Aceite</a></li>
+                            <li><a href="{{ route('filtrosaire') }}">Filtros de Aire</a></li>
+                            <li><a href="{{ route('filtrospetroleo') }}">Filtros de Petroleo</a></li>
+                            <li><a href="{{ route('filtrosbencina') }}">Filtros de Bencina</a></li>
+                            <li><a href="{{ route('filtroscabina') }}">Filtros de Cabina</a></li>
                           </ul>
                         </div>
                         <div class="col-md-6">
                           <div class="menu-title">Embrague</div>
                           <ul>
-                            <li><a href="{{ route('catalogo') }}">Kit de Embrague</a></li>
+                            <li><a href="{{ route('embrague') }}">Kit de Embrague</a></li>
                           </ul>
                         </div>
                       </div>
@@ -214,7 +216,7 @@
                           <div class="menu-title">Baterias</div>
                           <ul>
                             <li><a href="{{ route('baterias') }}">Baterias de Auto</a></li>
-                            <li><a href="">Baterias de Moto</a></li>
+                            <li><a href="{{ route('bateriasmoto') }}">Baterias de Moto</a></li>
                           </ul>
                         </div>
                         <div class="col-md-6">
@@ -285,6 +287,7 @@
             </li>
             <li><a href="{{ route('accesorios') }}">Accesorios</a></li>
             <li><a href="{{ route('herramientas') }}">Herramientas</a></li>
+            
           </ul>
         </nav>
         <button class="mobile-menu-toggler">

@@ -65,9 +65,20 @@ Route::get('/aceite2', [App\Http\Controllers\Aceite2Controller::class, 'aceite2'
 Route::get('/aceitecaja',[App\Http\Controllers\AceitecajaController::class, 'aceitecaja'])->name('aceitecaja');
 Route::get('/aceitemotor',[App\Http\Controllers\AceitemotorController::class, 'aceitemotor'])->name('aceitemotor');
 Route::get('/aceitemotos',[App\Http\Controllers\AceitemotosController::class, 'aceitemotos'])->name('aceitemotos');
+Route::get('/aceitedireccion',[App\Http\Controllers\AceitedireccionController::class, 'aceitedireccion'])->name('aceitedireccion');
+
+
 
 //ir a filtros
 Route::get('/filtros',[App\Http\Controllers\FiltrosController::class, 'filtros'])->name('filtros');
+Route::get('/filtrosbencina',[App\Http\Controllers\FiltrosbencinaController::class, 'filtrosbencina'])->name('filtrosbencina');
+Route::get('/filtrosaire',[App\Http\Controllers\FiltrosaireController::class, 'filtrosaire'])->name('filtrosaire');
+Route::get('/filtrospetroleo',[App\Http\Controllers\FiltrospetroleoController::class, 'filtrospetroleo'])->name('filtrospetroleo');
+Route::get('/filtroscabina',[App\Http\Controllers\FiltroscabinaController::class, 'filtroscabina'])->name('filtroscabina');
+Route::get('/filtrosaceite',[App\Http\Controllers\FiltrosaceiteController::class, 'filtrosaceite'])->name('filtrosaceite');
+
+
+
 
 //ir a las aguas
 Route::get('/aguas',[App\Http\Controllers\AguasController::class, 'aguas'])->name('aguas');
@@ -96,5 +107,10 @@ Route::get('/iluminacion',[App\Http\Controllers\IluminacionController::class, 'i
 
 //ir a correas
 Route::get('/correas',[App\Http\Controllers\CorreasController::class, 'correas'])->name('correas');
+
+//ie a kit de embrague
+Route::get('/embrague',[App\Http\Controllers\EmbragueController::class, 'embrague'])->name('embrague');
+
+
 
 
