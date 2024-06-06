@@ -56,30 +56,30 @@
             <a href="{{ route('aceite') }}" class="sf-with-ul">LUBRICANTES</a>
             <ul>
            
-                <li><a href="#">Aceite Motor</a></li>
-                <li><a href="#">Aceite Caja</a></li>
-                <li><a href="#">Aceite Motos</a></li>
-                <li><a href="{{ route('aguas') }}">Aguas</a></li>
-                <li><a href="{{ route('aguas') }}">Anticongelantes Y Refrigerantes</a></li>
+                <li><a href="{{ route('aceitemotor') }}">Aceite Motor</a></li>
+                <li><a href="{{ route('aceitecaja') }}">Aceite Caja</a></li>
+                <li><a href="{{ route('aceitemotos') }}">Aceite Motos</a></li>
+                <li><a href="{{ route('aguas') }}">Aguas y Anticongelantes</a></li>
             </ul>
         </li>
         <li>
             <a href="{{ route('filtros') }}">FILTROS</a>
             <ul>
                
-                <li><a href="#">Filtros de Aceite</a></li>
-                <li><a href="#">Filtros de Aire</a></li>
-                <li><a href="#">Filtros de Petroleo</a></li>
+                <li><a href="{{ route('filtrosaceite') }}">Filtros de Aceite</a></li>
+                <li><a href="{{ route('filtrosaire') }}">Filtros de Aire</a></li>
+                <li><a href="{{ route('filtrospetroleo') }}">Filtros de Petroleo</a></li>
                 <li><a href="#">Filtros de Bencina</a></li>
                 <li><a href="#">Filtros de Cabina</a></li>
+                <li><a href="{{ route('embrague') }}">Kit de Embrague</a></li>
             </ul>
         </li>
         <li>
             <a href="{{ route('baterias') }}">BATERIAS</a>
             <ul>
                 
-                <li><a href="#">Baterias de Auto</a></li>
-                <li><a href="#">Baterias de Moto</a></li>
+                <li><a href="{{ route('baterias') }}">Baterias de Auto</a></li>
+                <li><a href="{{ route('bateriasmoto') }}">Baterias de Moto</a></li>
             </ul>
         </li>
         <li>
