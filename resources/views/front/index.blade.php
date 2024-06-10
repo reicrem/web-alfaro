@@ -149,6 +149,26 @@
       </div>
     </div>
     
+    <section class="body-font quiensomos">
+  <div class="container mx-auto flex px-5 py-24 md:py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded animate-on-scroll" alt="local" src="{{ asset('images/local.jpeg') }}">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center  md:text-left">
+      <h1 class="title-font sm:text-6xl text-5xl mb-4 font-medium text-white animate-on-scroll">¿Quiénes somos?
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Bienvenidos a Alfaro Repuestos, su tienda confiable para repuestos de automóviles de alta calidad. Nos dedicamos a ofrecer piezas y accesorios de primera a precios competitivos, asegurando que su vehículo esté siempre en óptimas condiciones.</p>
+      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">En Alfaro Repuestos, contamos con un equipo de expertos listos para brindarle el mejor servicio y asesoramiento profesional. Ofrecemos una amplia gama de productos, desde componentes de motor hasta accesorios de interior, todos de los fabricantes más reconocidos.</p>
+      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Nuestra misión es proporcionar una experiencia de compra en  fácil y conveniente. Su satisfacción es nuestra prioridad. Gracias por elegirnos para todas sus necesidades de repuestos de automóviles.</p>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
     <section>
   <div class="mx-auto max-w-screen-1xl px-4 sm:px-6 sm:py-12 lg:px-8 pb-2">
     <ul class=" grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -230,6 +250,50 @@ const interval = setInterval(() => {
     }
 }, 2000); //
   </script>
+  
+<!-- script del quienes somos -->
+<script>   
+  document.addEventListener('DOMContentLoaded', function () {
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('tracking-in-expand-forward-top');
+      } else {
+        entry.target.classList.remove('tracking-in-expand-forward-top');
+      }
+    });
+  });
+
+  const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+  elementsToAnimate.forEach(element => {
+    observer.observe(element);
+  });
+});
+</script>
+
+<!-- script del boton de whatsap -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const whatsappButton = document.querySelector('.whatsapp-button');
+
+    // Función para agregar la clase de animación
+    function startAnimation() {
+        whatsappButton.classList.add('jello-horizontal');
+    }
+
+    // Función para quitar la clase de animación
+    function stopAnimation() {
+        whatsappButton.classList.remove('jello-horizontal');
+    }
+
+    // Activar la animación automáticamente y repetirla cada 15 segundos
+    startAnimation();
+    setInterval(function() {
+        stopAnimation(); // Detener la animación
+        setTimeout(startAnimation, 100); // Agregar la clase de animación después de un breve tiempo
+    }, 8000); // Repetir cada 15 segundos (15000 milisegundos)
+});
+</script>
   
 </main>
 @endsection
