@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+<a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
 <div class="container-fromulario">
     <div class="row justify-content-center">
         <div class="col-md-8">

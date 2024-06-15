@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+
+<a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
 <main class="main">
     <div class="container">
         <div id="" class=" carouselExampleIndicators" data-bs-ride="carousel">
@@ -165,9 +170,7 @@
   </div>
 </section>
 
-<a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
-    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
-</a>
+
 
     <section>
   <div class="mx-auto max-w-screen-1xl px-4 sm:px-6 sm:py-12 lg:px-8 pb-2">
@@ -291,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(function() {
         stopAnimation(); // Detener la animación
         setTimeout(startAnimation, 100); // Agregar la clase de animación después de un breve tiempo
-    }, 8000); // Repetir cada 15 segundos (15000 milisegundos)
+    }, 8000); // Repetir cada 8 segundos
 });
 </script>
   

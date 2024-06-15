@@ -1,4 +1,9 @@
 @foreach ($articulos as $articulo)
+
+<a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
   <div class="container quickView-container">
     <div class="quickView-content">
       <div class="row">
