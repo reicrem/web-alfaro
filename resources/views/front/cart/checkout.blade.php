@@ -2,7 +2,9 @@
 
 @section('content')
   <main class="main">
-
+  <a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
     <div class="mb-3"></div>
 
     <div class="cta cta-separator mb-5">

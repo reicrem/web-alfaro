@@ -64,6 +64,7 @@ Route::get('/aceite',[App\Http\Controllers\AceiteController::class, 'aceite' ])-
 Route::get('/aceite2', [App\Http\Controllers\Aceite2Controller::class, 'aceite2'])->name('aceite2');
 Route::get('/aceitecaja',[App\Http\Controllers\AceitecajaController::class, 'aceitecaja'])->name('aceitecaja');
 Route::get('/aceitemotor',[App\Http\Controllers\AceitemotorController::class, 'aceitemotor'])->name('aceitemotor');
+Route::get('/aceitemotor2',[App\Http\Controllers\Aceitemotor2Controller::class, 'aceitemotor2'])->name('aceitemotor2');
 Route::get('/aceitemotos',[App\Http\Controllers\AceitemotosController::class, 'aceitemotos'])->name('aceitemotos');
 Route::get('/aceitedireccion',[App\Http\Controllers\AceitedireccionController::class, 'aceitedireccion'])->name('aceitedireccion');
 

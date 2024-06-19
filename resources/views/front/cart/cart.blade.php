@@ -3,6 +3,10 @@
 @section('content')
 
   <main class="main">
+
+  <a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
+    <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
+</a>
     <div class="page-header text-center" style="background-image: url('{{ asset('images/page-header.jpg') }}')">
       <div class="container">
         <h1 class="page-title">Carro de Compras</h1>
