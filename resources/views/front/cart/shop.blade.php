@@ -18,7 +18,7 @@
             @csrf
             <div class="row">
               <div class="col-lg-9">
-                <h2 class="checkout-title">Datos para envio</h2>
+                <h2 class="checkout-title">Datos para la compra</h2>
                 <div class="row">
                   <div class="col-sm-6">
                     <label>Nombre</label>
@@ -45,7 +45,7 @@
                     <input type="text" class="form-control" placeholder="Calle" name="direccion" required>
                   </div>
                   <div class="col-sm-4">
-                    <label>Numero</label>
+                    <label>Numero de calle o S/N </label>
                     <input type="text" class="form-control" placeholder="Numero" name="numero" required>
                   </div>
                 </div>

@@ -34,17 +34,7 @@
 
                 </div>
 
-                <div class="col-sm-6 col-md-8">
-
-                  <span class="widget-about-title">Métodos de Pago</span>
-
-                  <figure class="footer-payments">
-
-                    <img src="{{ asset('images/medios_pago_CA.png') }}" alt="Métodos de Pago" width="500" height="500" />
-
-                  </figure>
-
-                </div>
+                
 
               </div>
 

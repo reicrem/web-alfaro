@@ -346,6 +346,7 @@ background: #0C4876;
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 32px;
+    
 }
 .t-destacado-2{
   padding-left: 14px;
@@ -13468,12 +13469,24 @@ width: 60%; /* Ancho del contenedor de detalles del producto */
 
 
 
-.quiensomos{
+.quiensomos {
   background-color: #0c4876;
-  border-radius: 10%;
-  margin-left: -12%;
-    margin-right: -12%;
+  border-radius: 15px 95px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; /* Agrega un poco de padding para mejorar el espaciado */
+  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  box-shadow: 10px 10px 20pc #babecc, -10px -10px 20px #ffffff;
 }
+
+@media (max-width: 768px) {
+  .quiensomos {
+    border-radius: 0; /* Remueve el border-radius en dispositivos móviles */
+    padding: 15px; /* Ajusta el padding para móviles */
+  }
+}
+
 .col-md-8{
   
   margin: auto;

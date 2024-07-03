@@ -95,6 +95,9 @@ Route::get('/carroceria',[App\Http\Controllers\CarroceriaController::class, 'car
 //ir a baterias
 Route::get('/baterias',[App\Http\Controllers\BateriasController::class, 'baterias'])->name('baterias');
 Route::get('/bateriasmoto',[App\Http\Controllers\BateriasmotoController::class, 'bateriasmoto'])->name('bateriasmoto');
+Route::get('/cablesbateria',[App\Http\Controllers\CablesbateriaController::class, 'cablesbateria'])->name('cablesbateria');
+Route::get('/cargadorbateria',[App\Http\Controllers\CargadorbateriaController::class, 'cargadorbateria'])->name('cargadorbateria');
+
 
 //ir a accesorios
 Route::get('/accesorios',[App\Http\Controllers\AccesoriosController::class, 'accesorios'])->name('accesorios');
@@ -105,6 +108,12 @@ Route::get('/herramientas',[App\Http\Controllers\HerramientasController::class, 
 
 //ir a iluminacion
 Route::get('/iluminacion',[App\Http\Controllers\IluminacionController::class, 'iluminacion'])->name('iluminacion');
+Route::get('/led',[App\Http\Controllers\LedController::class, 'led'])->name('led');
+Route::get('/posicion',[App\Http\Controllers\PosicionController::class, 'posicion'])->name('posicion');
+Route::get('/hologenas',[App\Http\Controllers\HologenasController::class, 'hologenas'])->name('hologenas');
+Route::get('/incandesentes',[App\Http\Controllers\IncandesentesController::class, 'incandesentes'])->name('incandesentes');
+
+
 
 //ir a correas
 Route::get('/correas',[App\Http\Controllers\CorreasController::class, 'correas'])->name('correas');

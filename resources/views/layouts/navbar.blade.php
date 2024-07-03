@@ -35,9 +35,7 @@
                   </div>
                 </li>
               @endauth
-              @guest
-                <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i> Iniciar sesión</a></li>
-              @endguest
+  
             </ul>
           </li>
         </ul>
@@ -222,9 +220,8 @@
                         <div class="col-md-6">
                           <div class="menu-title">Accesorios Baterias</div>
                           <ul>
-                            <li><a href="">Cargadores de Baterias</a></li>
-                            <li><a href="">Cables de Baterias</a></li>
-                            <li><a href="">Accesorios Baterias</a></li>
+                            <li><a href="{{ route('cargadorbateria') }}">Cargadores de Baterias</a></li>
+                            <li><a href="{{ route('cablesbateria') }}">Cables de Baterias</a></li>
                           </ul>
                         </div>
                       </div>
@@ -255,9 +252,10 @@
                         <div class="col-md-4">
                           <div class="menu-title">Ampolletas</div>
                           <ul>
-                            <li><a href="">Halogenas</a></li>
-                            <li><a href="">Incandesentes</a></li>
-                            <li><a href="">Led</a></li>
+                            <li><a href="{{ route('hologenas') }}">Halogenas</a></li>
+                            <li><a href="{{ route('incandesentes') }}">Incandesentes</a></li>
+                            <li><a href="{{ route('led') }}">Led</a></li>
+                            <li><a href="{{ route('posicion') }}">Posición</a></li>
                           </ul>
                         </div>
                         <div class="col-md-4">

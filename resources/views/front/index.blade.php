@@ -24,31 +24,7 @@
         </div>
     </div>
 
-    <div class="container py-3">
-    <div class="section_maintitle wow fadeInDown animated hover" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
-    <span class="relative flex justify-center">
-  <div
-    class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "
-  ></div>
-  <span class="relative z-10 bg-white px-6"><h3 class="heading text-capitalize text-center t-destacado-2 ">Amplia Cobertura para Diversas Marcas</h3></span>
-</span> 
-    </div>
-    <div class="recruitercontainer">
-    <div class="carousel-container">
-    <div class="carousel">
-      <img src="{{ asset('images/Chevrolet.png') }}" alt="chevrolet">
-      <img src="{{ asset('images/Toyota.png') }}" alt="Logo 1">
-      <img src="{{ asset('images/suzuki.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/MG.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Nissan.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Maxus.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Changan.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Mazda.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/Kia.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/chery.png') }}" alt="Logo 3">
-      <img src="{{ asset('images/hyundai.png') }}" alt="Logo 3">
-    </div>
-</div>
+    
 
 
     <div class="container featured mt-4 pb-2">
@@ -77,15 +53,43 @@
             </div>
           </div>
         </div>
+
+
+        
         <div class="col-lg-9">
+        <div class="container py-3">
+      <div class="section_maintitle wow fadeInDown animated hover" data-wow-duration="1s" data-wow-delay="0s" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-name: fadeInDown;">
+      <span class="relative flex justify-center">
+    <div
+      class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "
+    ></div>
+    <span class="relative z-10 bg-white px-6"><h3 class="heading text-capitalize text-center t-destacado-2 ">Amplia Cobertura para Diversas Marcas</h3></span>
+  </span> 
+      </div>
+      <div class="recruitercontainer">
+      <div class="carousel-container">
+      <div class="carousel">
+        <img src="{{ asset('images/Chevrolet.png') }}" alt="chevrolet">
+        <img src="{{ asset('images/Toyota.png') }}" alt="Logo 1">
+        <img src="{{ asset('images/suzuki.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/MG.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/Nissan.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/Maxus.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/Changan.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/Mazda.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/Kia.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/chery.png') }}" alt="Logo 3">
+        <img src="{{ asset('images/hyundai.png') }}" alt="Logo 3">
+      </div>
+</div>
         <span class="relative flex justify-center">
         <div
-          class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "
-        ></div>
+          class=" absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-black to-transparent "></div>
         <span class="relative z-10 bg-white px-6"><h3 class="t-destacado">Productos en Oferta</h3></span>
       </span> 
                 
           <div class="tab-content tab-content-carousel">
+            
             <div class="tab-pane p-0 fade show active" id="featured-women-tab" role="tabpanel" aria-labelledby="featured-women-link">
               <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl"
                 data-owl-options='{
@@ -114,17 +118,20 @@
                                     }
                                 }'>
 
+
+
                 @foreach ($articulos as $articulo)
                 
                   <div class="product product-7">
+                    
                     <figure class="product-media">
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">
                         <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image" />
                         <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image-hover" />
                       </a>
-                      <div class="product-action-vertical">
+                      <!-- <div class="product-action-vertical">
                         <a href="{{ route('producto') }}" class="btn-product-icon btn-quickview"><span>Ver</span></a>
-                      </div>
+                      </div> -->
                       <div class="product-action">
                         <form action="{{ route('add') }}" method="POST">
                           @csrf
@@ -146,29 +153,36 @@
                       </div>
                     </div>
                   </div>
+
+                  
                 @endforeach
               </div>
             </div>
           </div>
+
+            
         </div>
+        
       </div>
+      
     </div>
     
     <section class="body-font quiensomos">
-  <div class="container mx-auto flex px-5 py-24 md:py-24 md:flex-row flex-col items-center">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded animate-on-scroll" alt="local" src="{{ asset('images/local.jpeg') }}">
     </div>
-    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center  md:text-left">
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center text-center md:text-left">
       <h1 class="title-font sm:text-6xl text-5xl mb-4 font-medium text-white animate-on-scroll">¿Quiénes somos?
         <br class="hidden lg:inline-block">
       </h1>
-      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Bienvenidos a Alfaro Repuestos, su tienda confiable para repuestos de automóviles de alta calidad. Nos dedicamos a ofrecer piezas y accesorios de primera a precios competitivos, asegurando que su vehículo esté siempre en óptimas condiciones.</p>
-      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">En Alfaro Repuestos, contamos con un equipo de expertos listos para brindarle el mejor servicio y asesoramiento profesional. Ofrecemos una amplia gama de productos, desde componentes de motor hasta accesorios de interior, todos de los fabricantes más reconocidos.</p>
-      <p class="mb-1 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Nuestra misión es proporcionar una experiencia de compra en  fácil y conveniente. Su satisfacción es nuestra prioridad. Gracias por elegirnos para todas sus necesidades de repuestos de automóviles.</p>
+      <p class="mb-4 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Bienvenidos a Alfaro Repuestos, su tienda confiable para repuestos de automóviles de alta calidad. Nos dedicamos a ofrecer piezas y accesorios de primera a precios competitivos, asegurando que su vehículo esté siempre en óptimas condiciones.</p>
+      <p class="mb-4 text-3xl text-white leading-relaxed px-4 animate-on-scroll">En Alfaro Repuestos, contamos con un equipo de expertos listos para brindarle el mejor servicio y asesoramiento profesional. Ofrecemos una amplia gama de productos, desde componentes de motor hasta accesorios de interior, todos de los fabricantes más reconocidos.</p>
+      <p class="mb-4 text-3xl text-white leading-relaxed px-4 animate-on-scroll">Nuestra misión es proporcionar una experiencia de compra fácil y conveniente. Su satisfacción es nuestra prioridad. Gracias por elegirnos para todas sus necesidades de repuestos de automóviles.</p>
     </div>
   </div>
 </section>
+
 
 
 
