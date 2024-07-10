@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <a href="https://wa.me/56977209322" class="whatsapp-button jello-horizontal" target="_blank">
     <img src="{{ asset('images/whatsapp.png') }}" alt="WhatsApp" class="whatsapp-icon">
 </a>
@@ -97,21 +98,22 @@
                                     "dots": true,
                                     "margin": 20,
                                     "loop": true,
-                                    "autoplay":true,
-                                    "autoplayTimeout":5000,
+                                    
+                                    
                                     "autoplayHoverPause":true,
                                     "responsive": {
                                         "0": {
-                                            "items":2
+                                            "items":1
                                         },
                                         "480": {
-                                            "items":2
+                                            "items":1
                                         },
                                         "768": {
-                                            "items":3
+                                            "items":1
                                         },
                                         "992": {
                                             "items":3,
+                                            
                                             "nav": true,
                                             "dots": false
                                         }
@@ -127,11 +129,8 @@
                     <figure class="product-media">
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">
                         <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image" />
-                        <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image-hover" />
+                        
                       </a>
-                      <!-- <div class="product-action-vertical">
-                        <a href="{{ route('producto') }}" class="btn-product-icon btn-quickview"><span>Ver</span></a>
-                      </div> -->
                       <div class="product-action">
                         <form action="{{ route('add') }}" method="POST">
                           @csrf
@@ -140,6 +139,7 @@
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;Agregar al Carro &nbsp;&nbsp;&nbsp;&nbsp;</span>
                           </button>
                         </form>
+                        
                       </div>
                     </figure> 
                     <div class="product-body">
@@ -149,9 +149,10 @@
                         </a>
                       </h3>
                       <div class="product-price">
-                        <span class="new-price">$ {{ $articulo->price }}</span>
+                        <span class="new-price">$ {{ number_format($articulo->price, 0, ',', '.') }}</span>
                       </div>
                     </div>
+                    
                   </div>
 
                   
@@ -167,6 +168,7 @@
       
     </div>
     
+
     <section class="body-font quiensomos">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">

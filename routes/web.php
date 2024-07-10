@@ -121,6 +121,7 @@ Route::get('/correas',[App\Http\Controllers\CorreasController::class, 'correas']
 //ie a kit de embrague
 Route::get('/embrague',[App\Http\Controllers\EmbragueController::class, 'embrague'])->name('embrague');
 
-
+//ir a ofertas
+Route::get('/ofertas',[App\Http\Controllers\OfertasController::class, 'ofertas'])->name('ofertas');
 
 

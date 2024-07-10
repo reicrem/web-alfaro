@@ -11,18 +11,23 @@ class FrontController extends Controller
 {
     public function index()
     {
-      $articulos = Articulos::join("precios", "precios.codart", "=", "articulos.id")
-        ->join("categorias", "categorias.codigo", "=", "articulos.cate")
-        ->select("articulos.*", "precios.pventa as price", "categorias.categoria as catego")
-        ->where("articulos.destaca", "=", "1")
+      $articulos = Articulos::join("precios", "precios.codigo", "=", "articulos.id")
+        ->join("categorias", "categorias.codigo", "=", "articulos.categoria")
+        ->select("articulos.*", "precios.precio as price", "categorias.categoria as catego")
+        ->where("articulos.oferta", "=", "1")
+        ->where("precios.estado", "=", "1")
         ->get();
+      /*
       $banner = Banner::get();
   
       $cate_desta = Categorias_destacadas::join("categorias", "categorias.codigo", "=", "categorias_destacadas.codigo")
         ->select("categorias_destacadas.*", "categorias.categoria as cate")
         ->get();
-  
+      
       return view('front.index', ['articulos' => $articulos, 'cate_desta' => $cate_desta, 'banner' => $banner]);
+      */
+
+      return view('front.index', ['articulos' => $articulos]);
     }
   
     public function ver_articulo($id)

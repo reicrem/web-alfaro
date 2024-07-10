@@ -6,7 +6,7 @@
           <li>
             <a href="#">Links</a>
             <ul>
-              <li><i class="icon-phone"></i> +569 7967 1133 | VENTAS@ALFAROREPUESTOS.CL</li>
+              <li><i class="icon-phone"></i> +569 7967 1133 </li>
             </ul>
           </li>
         </ul>

@@ -15,6 +15,7 @@ class CartController extends Controller
         $articulo = Articulos::join("precios", "precios.codigo", "=", "articulos.id")
             ->select("articulos.*", "precios.precio as price")
             ->where("articulos.id", "=", $request->id)
+            ->where("precios.estado", "=", "1")
             ->get();
         foreach ($articulo as $articulo) {
            Cart::add(
