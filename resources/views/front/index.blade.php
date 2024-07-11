@@ -54,6 +54,32 @@
             </div>
           </div>
         </div>
+        
+        <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
+    <div class="row justify-content-center align-items-center"> <!-- Alineación vertical y horizontal -->
+        <div class="col-10">
+            <div class="row no-gutters bg-white newsletter-popup-content">
+                <div class="col-xl-3-5col col-lg-7 banner-content-wrap">
+                    <div class="banner-content text-center">
+                        <h2 class="banner-title">Ten un <span>10<light>%</light></span> de Descuento</h2>
+                        <p>Por compras desde la página recibirás este descuento.</p>
+
+                        <div class="input-group input-group-round d-flex justify-content-center"> <!-- Alineación horizontal -->
+                            <a href="{{ route('ofertas') }}" class="btn"><span>Ir</span></a> <!-- Enlace a la página de ofertas -->
+                        </div><!-- .End .input-group -->
+
+                        <div class="custom-control custom-checkbox">
+                            <!-- Aquí puedes agregar opciones para el checkbox si es necesario -->
+                        </div><!-- End .custom-checkbox -->
+                    </div>
+                </div>
+                <div class="col-xl-2-5col col-lg-5">
+                    <img src="{{ asset('images/promo.png') }}" class="newsletter-img" alt="newsletter">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
         
@@ -127,6 +153,7 @@
                   <div class="product product-7">
                     
                     <figure class="product-media">
+                    <span class="product-label label-sale">10% off</span>
                       <a href="{{ route('articulo', ['id' => $articulo->id]) }}">
                         <img src="https://kallfu.eppseguridadmym.com/{{ $articulo->imagen }}" class="product-image" />
                         

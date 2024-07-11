@@ -103,13 +103,13 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion-payment">
                         <div class="card-body">
-                          Realice su pago directamente en nuestra cuenta bancaria. <br>
-                          Utilice su ID de pedido como referencia de pago. <br>
-                          Tu pedido no será enviado hasta que los fondos se hayan verificado en nuestra cuenta.
+                          Realice su pago directamente en nuestra cuenta bancaria . <br>
+                          Victor Alfaro Contador 8272429-k Cuenta Rut Banco estado. <br>
+                          Utilice su Rut como referencia de pago y enviar al correo su comprobante mas el monto total de la compra. <br>
+                          alfarorepuestos@yahoo.es <br>
+                          Tu pedido no será entregado hasta que los fondos se hayan verificado en nuestra cuenta.
                         </div>
-                      </div>
                     </div>
                   </div>
                   <button type="submit" class="btn btn-outline-primary-2 btn-order btn-block">

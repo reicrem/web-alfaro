@@ -9,8 +9,9 @@ class OfertasController extends Controller
 {
     public function ofertas()
     {
-        $articulos = Articulos::join("precios", "precios.codigo", "=", "articulos.codigo")
-            ->select("articulos.id", "articulos.articulo as nombre", "precios.precio as price", "articulos.stock_minimo as stock", "articulos.imagen", "articulos.oferta")
+        $articulos = Articulos::join("precios", "precios.codigo", "=", "articulos.id")
+            ->join("categorias", "categorias.codigo", "=", "articulos.categoria")
+            ->select("articulos.*", "precios.precio as price", "categorias.categoria as catego")
             ->where("articulos.oferta", "=", "1")
             ->get();
 
